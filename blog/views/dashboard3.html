@@ -1,0 +1,115 @@
+{% extends 'templete.html' %}
+
+{% block title %}终端数据汇总{% endblock %}
+
+{% block left %}
+<li><a href="/1/dashboard1/{{data_lastest2}}"><span class="icon">&#128202;</span> ADP数据汇总</a></li>
+<li><a href="/2/dashboard2/{{data_lastest2}}"><span class="icon">&#128202;</span>终端类型分析</a></li>
+<li class="section"><a href="/3/dashboard3/{{data_lastest}}"><span class="icon">&#128202;</span>终端数据汇总</a></li>
+<li><a href="/dashboard4/{{data_lastest}}/imei"><span class="icon">&#128202;</span>每日终端数据</a></li>
+<li><a href="/5/dashboard5/{{data_lastest}}"><span class="icon">&#128202;</span> 规则优化管理</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="btn-group">
+    <form action="/3/dashboard3/po" role="form" method="post" class="bs-example bs-example-form">
+        <div class="input-group" style="width: 300px; float: left">
+            <span class="input-group-addon">截止日期</span>
+            <select class="form-control" name="num">
+                {% for i in data_1 %}
+                {% if i.data != data_this %}
+                <option value="{{i.data}}">{{i.data}}</option>
+                {% else %}
+                <option value="{{i.data}}" selected="selected">{{i.data}}</option>
+                {% endif %}
+                {% endfor %}
+            </select>
+        </div>
+        <div style="float: left; font-size: 15px; margin-top: 5px">
+            <p>(显示之前15天的数据)</p>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-left: 30px">查询</button>
+    </form>
+</div>
+<div class="red" style="font-size: larger">
+    <p style="margin-left: 45%; display: inline-block">IMEI</p>
+    <p style="margin-left: 40%; display: inline-block"><a href="/dashboard4/{{data[0].data}}/imei" style="color: #e8e8ff"> >>查看详情 </a> </p>
+</div>
+<table class="table table-hover" style="text-align:center">
+    <tr>
+        <td>DATE</td>
+        <td>TYPE</td>
+        <td>TOTAL</td>
+        <td>MATCH</td>
+        <td>UNIQUE</td>
+        <td>MATCH/TOTAL</td>
+        <td>UNIQOE/MATCH</td>
+    </tr>
+    {% for i in data %}
+        <tr>
+            <td>{{i.data}}</td>
+            <td>ADCOOKIE</td>
+            <td>{{i.imei_total}}</td>
+            <td>{{i.imei_match}}</td>
+            <td>{{i.imei_uniq}}</td>
+            <td>{{i.imei_mt}}%</td>
+            <td>{{i.imei_um}}%</td>
+        </tr>
+    {% endfor %}
+</table>
+<br><br><br>
+<div class="red" style="font-size: larger">
+    <p style="margin-left: 45%; display: inline-block">IMSI</p>
+    <p style="margin-left: 40%; display: inline-block"><a href="/dashboard4/{{data[0].data}}/imsi" style="color: #e8e8ff"> >>查看详情 </a> </p>
+</div>
+<table class="table table-hover" style="text-align:center">
+    <tr>
+        <td>DATE</td>
+        <td>TYPE</td>
+        <td>TOTAL</td>
+        <td>MATCH</td>
+        <td>UNIQUE</td>
+        <td>MATCH/TOTAL</td>
+        <td>UNIQOE/MATCH</td>
+    </tr>
+    {% for i in data %}
+    <tr>
+        <td>{{i.data}}</td>
+        <td>ADCOOKIE</td>
+        <td>{{i.imsi_total}}</td>
+        <td>{{i.imsi_match}}</td>
+        <td>{{i.imsi_uniq}}</td>
+        <td>{{i.imsi_mt}}%</td>
+        <td>{{i.imsi_um}}%</td>
+    </tr>
+    {% endfor %}
+</table>
+<br><br><br>
+<div class="red" style="font-size: larger">
+    <p style="margin-left: 45%; display: inline-block">MDN</p>
+    <p style="margin-left: 40%; display: inline-block"><a href="/dashboard4/{{data[0].data}}/mdn" style="color: #e8e8ff"> >>查看详情 </a> </p>
+</div>
+<table class="table table-hover" style="text-align:center">
+    <tr>
+        <td>DATE</td>
+        <td>TYPE</td>
+        <td>TOTAL</td>
+        <td>MATCH</td>
+        <td>UNIQUE</td>
+        <td>MATCH/TOTAL</td>
+        <td>UNIQOE/MATCH</td>
+    </tr>
+    {% for i in data %}
+    <tr>
+        <td>{{i.data}}</td>
+        <td>ADCOOKIE</td>
+        <td>{{i.mdn_total}}</td>
+        <td>{{i.mdn_match}}</td>
+        <td>{{i.mdn_uniq}}</td>
+        <td>{{i.mdn_mt}}%</td>
+        <td>{{i.mdn_um}}%</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

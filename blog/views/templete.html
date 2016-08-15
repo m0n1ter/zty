@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}abc{% endblock %}</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./../../views/css/style.css" media="all" />
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<body style="background-color: #e8e8ff">
+<div class="testing">
+    <header class="main">
+        <h1>Welcome to nymphdata</h1>
+    </header>
+</div>
+<nav>
+    <ul>
+        {% block left %}
+        <p>123</p>
+        {% endblock %}
+    </ul>
+</nav>
+
+<section class="content">
+    <section>
+        <header style="height: 35px">
+        </header>
+        <div class="content cycle">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </section>
+
+</section>
+<script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"0></script>
+<script src="./../../views/js/jquery.pista.js"></script>
+<script>$(function ()
+{ $("[data-toggle='popover']").popover();
+});
+</script>
+<script src="./../../views/js/jquery.tablesorter.min.js"></script>
+</body>
+</html>

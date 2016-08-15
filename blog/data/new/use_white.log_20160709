@@ -1,0 +1,2174 @@
+16/07/12 09:38:33 INFO Configuration.deprecation: mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+16/07/12 09:38:33 INFO Configuration.deprecation: mapred.output.compression.codec is deprecated. Instead, use mapreduce.output.fileoutputformat.compress.codec
+16/07/12 09:38:34 INFO hdfs.DFSClient: Created HDFS_DELEGATION_TOKEN token 4911061 for u_lx_tst2 on ha-hdfs:ns1
+16/07/12 09:38:34 INFO security.TokenCache: Got dt for hdfs://ns1; Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:ns1, Ident: (HDFS_DELEGATION_TOKEN token 4911061 for u_lx_tst2)
+16/07/12 09:38:34 INFO client.ConfiguredRMFailoverProxyProvider: Failing over to rm2
+16/07/12 09:38:36 INFO input.FileInputFormat: Total input paths to process : 17264
+16/07/12 09:38:36 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library
+16/07/12 09:38:36 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev b485cc32964cdcea66f15c430c924fc24c5840f5]
+16/07/12 09:38:37 INFO mapreduce.JobSubmitter: number of splits:17264
+16/07/12 09:38:37 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1466142413951_123548
+16/07/12 09:38:37 INFO mapreduce.JobSubmitter: Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:ns1, Ident: (HDFS_DELEGATION_TOKEN token 4911061 for u_lx_tst2)
+16/07/12 09:38:38 INFO impl.YarnClientImpl: Submitted application application_1466142413951_123548
+16/07/12 09:38:38 INFO mapreduce.Job: The url to track the job: http://ddp-nn-002:23188/proxy/application_1466142413951_123548/
+16/07/12 09:38:38 INFO mapreduce.Job: Running job: job_1466142413951_123548
+16/07/12 09:38:54 INFO mapreduce.Job: Job job_1466142413951_123548 running in uber mode : false
+16/07/12 09:38:54 INFO mapreduce.Job:  map 0% reduce 0%
+16/07/12 09:40:52 INFO mapreduce.Job:  map 1% reduce 0%
+16/07/12 09:43:49 INFO mapreduce.Job:  map 2% reduce 0%
+16/07/12 09:46:35 INFO mapreduce.Job:  map 3% reduce 0%
+16/07/12 09:48:10 INFO mapreduce.Job:  map 4% reduce 0%
+16/07/12 09:50:16 INFO mapreduce.Job:  map 5% reduce 0%
+16/07/12 09:51:55 INFO mapreduce.Job:  map 6% reduce 0%
+16/07/12 09:53:24 INFO mapreduce.Job:  map 7% reduce 0%
+16/07/12 09:54:56 INFO mapreduce.Job:  map 8% reduce 0%
+16/07/12 09:56:42 INFO mapreduce.Job:  map 9% reduce 0%
+16/07/12 09:59:07 INFO mapreduce.Job:  map 10% reduce 0%
+16/07/12 10:00:57 INFO mapreduce.Job:  map 11% reduce 0%
+16/07/12 10:01:32 INFO mapreduce.Job:  map 11% reduce 1%
+16/07/12 10:02:51 INFO mapreduce.Job:  map 12% reduce 1%
+16/07/12 10:05:17 INFO mapreduce.Job:  map 13% reduce 1%
+16/07/12 10:07:03 INFO mapreduce.Job:  map 14% reduce 1%
+16/07/12 10:08:45 INFO mapreduce.Job:  map 15% reduce 1%
+16/07/12 10:10:25 INFO mapreduce.Job:  map 16% reduce 1%
+16/07/12 10:12:07 INFO mapreduce.Job:  map 17% reduce 1%
+16/07/12 10:14:16 INFO mapreduce.Job:  map 18% reduce 1%
+16/07/12 10:16:10 INFO mapreduce.Job:  map 18% reduce 2%
+16/07/12 10:16:56 INFO mapreduce.Job:  map 19% reduce 2%
+16/07/12 10:19:28 INFO mapreduce.Job:  map 20% reduce 2%
+16/07/12 10:22:34 INFO mapreduce.Job:  map 21% reduce 2%
+16/07/12 10:25:30 INFO mapreduce.Job:  map 22% reduce 2%
+16/07/12 10:27:07 INFO mapreduce.Job:  map 22% reduce 3%
+16/07/12 10:27:41 INFO mapreduce.Job:  map 23% reduce 3%
+16/07/12 10:29:45 INFO mapreduce.Job:  map 24% reduce 3%
+16/07/12 10:30:57 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_003453_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 10:30:59 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_003419_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 10:30:59 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_003089_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 10:30:59 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_003222_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 10:31:18 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_003085_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 10:31:18 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_002715_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 10:31:24 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_003039_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 10:31:45 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_003922_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 10:31:55 INFO mapreduce.Job:  map 25% reduce 3%
+16/07/12 10:32:16 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_003781_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 10:32:20 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_003992_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 10:33:52 INFO mapreduce.Job:  map 26% reduce 3%
+16/07/12 10:34:15 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_004058_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 10:35:24 INFO mapreduce.Job:  map 26% reduce 4%
+16/07/12 10:35:45 INFO mapreduce.Job:  map 27% reduce 4%
+16/07/12 10:37:15 INFO mapreduce.Job:  map 27% reduce 5%
+16/07/12 10:37:52 INFO mapreduce.Job:  map 28% reduce 5%
+16/07/12 10:39:53 INFO mapreduce.Job:  map 29% reduce 5%
+16/07/12 10:41:36 INFO mapreduce.Job:  map 29% reduce 6%
+16/07/12 10:41:53 INFO mapreduce.Job:  map 30% reduce 6%
+16/07/12 10:44:01 INFO mapreduce.Job:  map 31% reduce 6%
+16/07/12 10:45:22 INFO mapreduce.Job:  map 31% reduce 7%
+16/07/12 10:46:02 INFO mapreduce.Job:  map 32% reduce 7%
+16/07/12 10:48:01 INFO mapreduce.Job:  map 33% reduce 7%
+16/07/12 10:48:41 INFO mapreduce.Job:  map 33% reduce 8%
+16/07/12 10:50:26 INFO mapreduce.Job:  map 34% reduce 8%
+16/07/12 10:52:48 INFO mapreduce.Job:  map 35% reduce 8%
+16/07/12 10:54:45 INFO mapreduce.Job:  map 35% reduce 9%
+16/07/12 10:54:53 INFO mapreduce.Job:  map 36% reduce 9%
+16/07/12 10:56:50 INFO mapreduce.Job:  map 37% reduce 9%
+16/07/12 10:57:23 INFO mapreduce.Job:  map 37% reduce 10%
+16/07/12 10:58:59 INFO mapreduce.Job:  map 38% reduce 10%
+16/07/12 11:00:48 INFO mapreduce.Job:  map 38% reduce 11%
+16/07/12 11:01:07 INFO mapreduce.Job:  map 39% reduce 11%
+16/07/12 11:03:00 INFO mapreduce.Job:  map 40% reduce 11%
+16/07/12 11:05:08 INFO mapreduce.Job:  map 41% reduce 11%
+16/07/12 11:07:06 INFO mapreduce.Job:  map 42% reduce 11%
+16/07/12 11:07:09 INFO mapreduce.Job:  map 42% reduce 12%
+16/07/12 11:09:04 INFO mapreduce.Job:  map 43% reduce 12%
+16/07/12 11:11:07 INFO mapreduce.Job:  map 44% reduce 12%
+16/07/12 11:11:30 INFO mapreduce.Job:  map 44% reduce 13%
+16/07/12 11:12:20 INFO mapreduce.Job:  map 44% reduce 14%
+16/07/12 11:13:09 INFO mapreduce.Job:  map 45% reduce 14%
+16/07/12 11:15:06 INFO mapreduce.Job:  map 46% reduce 14%
+16/07/12 11:15:11 INFO mapreduce.Job:  map 46% reduce 15%
+16/07/12 11:17:16 INFO mapreduce.Job:  map 47% reduce 15%
+16/07/12 11:19:06 INFO mapreduce.Job:  map 48% reduce 15%
+16/07/12 11:21:00 INFO mapreduce.Job:  map 49% reduce 15%
+16/07/12 11:22:45 INFO mapreduce.Job:  map 49% reduce 16%
+16/07/12 11:22:48 INFO mapreduce.Job:  map 50% reduce 16%
+16/07/12 11:24:41 INFO mapreduce.Job:  map 51% reduce 16%
+16/07/12 11:26:26 INFO mapreduce.Job:  map 52% reduce 16%
+16/07/12 11:28:09 INFO mapreduce.Job:  map 53% reduce 16%
+16/07/12 11:29:59 INFO mapreduce.Job:  map 54% reduce 16%
+16/07/12 11:30:28 INFO mapreduce.Job:  map 54% reduce 17%
+16/07/12 11:32:23 INFO mapreduce.Job:  map 55% reduce 17%
+16/07/12 11:34:31 INFO mapreduce.Job:  map 56% reduce 17%
+16/07/12 11:35:47 INFO mapreduce.Job:  map 56% reduce 18%
+16/07/12 11:36:24 INFO mapreduce.Job:  map 57% reduce 18%
+16/07/12 11:38:23 INFO mapreduce.Job:  map 58% reduce 18%
+16/07/12 11:40:17 INFO mapreduce.Job:  map 59% reduce 18%
+16/07/12 11:40:56 INFO mapreduce.Job:  map 59% reduce 19%
+16/07/12 11:41:55 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007979_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:41:55 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008951_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:41:55 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008611_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:41:55 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008820_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:41:55 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008038_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:41:55 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008262_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:41:55 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008782_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:42:03 INFO mapreduce.Job:  map 60% reduce 19%
+16/07/12 11:43:33 INFO mapreduce.Job:  map 61% reduce 19%
+16/07/12 11:45:18 INFO mapreduce.Job:  map 62% reduce 19%
+16/07/12 11:45:32 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009460_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:45:37 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010131_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:45:58 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009734_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:46:04 INFO mapreduce.Job:  map 62% reduce 20%
+16/07/12 11:47:08 INFO mapreduce.Job:  map 63% reduce 20%
+16/07/12 11:49:04 INFO mapreduce.Job:  map 64% reduce 20%
+16/07/12 11:50:11 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007585_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:50:43 INFO mapreduce.Job:  map 65% reduce 20%
+16/07/12 11:51:29 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008068_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:51:29 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009187_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:51:31 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008504_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:51:31 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008975_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:51:31 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008251_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:51:31 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009877_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:51:31 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009494_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:51:31 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008514_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:51:31 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008099_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:51:53 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010031_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:09 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010020_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:09 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008128_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009699_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009131_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009639_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008859_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008351_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009672_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008249_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008655_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009102_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:15 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008108_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:19 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010006_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:21 INFO mapreduce.Job:  map 65% reduce 21%
+16/07/12 11:52:21 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007418_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:52:48 INFO mapreduce.Job:  map 66% reduce 21%
+16/07/12 11:52:54 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010107_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:14 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009988_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:26 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007929_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:26 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009651_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:26 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009939_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:35 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008878_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:35 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007711_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:40 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008639_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:40 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009211_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:40 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007999_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:40 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008657_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:40 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009023_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:40 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007545_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:54 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008470_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:54 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009564_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:54 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009031_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:54 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008039_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:59 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008309_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:53:59 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008363_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:08 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009866_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:08 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009773_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:08 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009685_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:15 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010298_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:30 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007681_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:34 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009530_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:39 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010474_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:46 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009523_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:46 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009097_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:46 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009334_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:46 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008481_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:46 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009907_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:46 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008586_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:46 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009153_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:46 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008632_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:46 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008484_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:47 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009298_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:47 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008412_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:48 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007876_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:54:59 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010414_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:07 INFO mapreduce.Job:  map 67% reduce 21%
+16/07/12 11:55:09 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007986_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:16 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010596_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:36 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009406_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:36 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009535_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:37 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008366_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:37 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009254_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:37 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009231_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:37 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_008385_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:42 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_009899_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:42 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010170_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:55:42 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010162_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:56:52 INFO mapreduce.Job:  map 68% reduce 21%
+16/07/12 11:57:28 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010630_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:57:28 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010667_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:57:39 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010093_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:57:56 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010139_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:58:09 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010687_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:58:29 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010725_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:58:34 INFO mapreduce.Job:  map 69% reduce 21%
+16/07/12 11:58:50 INFO mapreduce.Job:  map 69% reduce 22%
+16/07/12 11:58:56 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011156_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:59:06 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011056_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:59:06 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007137_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:59:15 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010551_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 11:59:22 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011008_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 11:59:46 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010972_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:00:14 INFO mapreduce.Job:  map 70% reduce 22%
+16/07/12 12:00:48 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011023_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:00:57 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011306_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:01:08 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011436_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:01:11 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011276_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:01:30 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011406_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:01:55 INFO mapreduce.Job:  map 71% reduce 22%
+16/07/12 12:02:00 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011834_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:02:13 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011223_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:02:29 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011485_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:02:45 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011332_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:02:51 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011559_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:03:04 INFO mapreduce.Job:  map 71% reduce 23%
+16/07/12 12:03:35 INFO mapreduce.Job:  map 72% reduce 23%
+16/07/12 12:03:42 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011489_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:05:05 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011390_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:05:18 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011971_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:05:21 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_012082_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:05:23 INFO mapreduce.Job:  map 73% reduce 23%
+16/07/12 12:06:01 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011443_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:06:01 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_012149_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:06:22 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011885_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:06:52 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_012234_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:07:10 INFO mapreduce.Job:  map 74% reduce 23%
+16/07/12 12:07:16 INFO mapreduce.Job:  map 74% reduce 24%
+16/07/12 12:07:36 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011611_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:07:39 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011977_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:09:04 INFO mapreduce.Job:  map 75% reduce 24%
+16/07/12 12:10:38 INFO mapreduce.Job:  map 75% reduce 25%
+16/07/12 12:10:42 INFO mapreduce.Job:  map 76% reduce 25%
+16/07/12 12:12:17 INFO mapreduce.Job:  map 77% reduce 25%
+16/07/12 12:13:57 INFO mapreduce.Job:  map 78% reduce 25%
+16/07/12 12:15:32 INFO mapreduce.Job:  map 79% reduce 25%
+16/07/12 12:15:38 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010196_0, Status : FAILED
+Container released on a *lost* node
+cleanup failed for container container_1466142413951_123548_01_020031 : java.net.ConnectException: Call From DDP-DN-B040/10.5.31.40 to DDP-DN-081:47929 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.GeneratedConstructorAccessor100.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:731)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:232)
+	at com.sun.proxy.$Proxy39.stopContainers(Unknown Source)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ContainerManagementProtocolPBClientImpl.stopContainers(ContainerManagementProtocolPBClientImpl.java:110)
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:187)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:102)
+	at com.sun.proxy.$Proxy40.stopContainers(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$Container.kill(ContainerLauncherImpl.java:206)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$EventProcessor.run(ContainerLauncherImpl.java:373)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:530)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:494)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:607)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:705)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:368)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1521)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1438)
+	... 15 more
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:15:52 INFO mapreduce.Job:  map 79% reduce 26%
+16/07/12 12:17:08 INFO mapreduce.Job:  map 80% reduce 26%
+16/07/12 12:17:16 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_012708_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:17:31 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_012971_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:17:33 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011587_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:17:33 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011648_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:17:33 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011792_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:17:33 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011414_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:17:33 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011438_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:17:33 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_012187_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:17:40 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011345_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:17:40 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011368_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:18:03 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010788_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:18:09 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010549_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:18:14 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_011141_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:18:28 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_013070_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:18:56 INFO mapreduce.Job:  map 81% reduce 26%
+16/07/12 12:19:11 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010642_0, Status : FAILED
+Container released on a *lost* node
+cleanup failed for container container_1466142413951_123548_01_020786 : java.net.ConnectException: Call From DDP-DN-B040/10.5.31.40 to DDP-DN-081:47929 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.GeneratedConstructorAccessor100.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:731)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:232)
+	at com.sun.proxy.$Proxy39.stopContainers(Unknown Source)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ContainerManagementProtocolPBClientImpl.stopContainers(ContainerManagementProtocolPBClientImpl.java:110)
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:187)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:102)
+	at com.sun.proxy.$Proxy40.stopContainers(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$Container.kill(ContainerLauncherImpl.java:206)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$EventProcessor.run(ContainerLauncherImpl.java:373)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:530)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:494)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:607)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:705)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:368)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1521)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1438)
+	... 15 more
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:19:11 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010360_0, Status : FAILED
+Container released on a *lost* node
+cleanup failed for container container_1466142413951_123548_01_020700 : java.net.ConnectException: Call From DDP-DN-B040/10.5.31.40 to DDP-DN-081:47929 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.GeneratedConstructorAccessor100.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:731)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:232)
+	at com.sun.proxy.$Proxy39.stopContainers(Unknown Source)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ContainerManagementProtocolPBClientImpl.stopContainers(ContainerManagementProtocolPBClientImpl.java:110)
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:187)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:102)
+	at com.sun.proxy.$Proxy40.stopContainers(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$Container.kill(ContainerLauncherImpl.java:206)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$EventProcessor.run(ContainerLauncherImpl.java:373)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:530)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:494)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:607)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:705)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:368)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1521)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1438)
+	... 15 more
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:19:32 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_013334_0, Status : FAILED
+Container killed by the ApplicationMaster.
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:20:26 INFO mapreduce.Job:  map 81% reduce 27%
+16/07/12 12:20:26 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_013417_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:20:39 INFO mapreduce.Job:  map 82% reduce 27%
+16/07/12 12:21:37 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010877_0, Status : FAILED
+AttemptID:attempt_1466142413951_123548_m_010877_0 Timed out after 600 secs
+Container released on a *lost* node
+cleanup failed for container container_1466142413951_123548_01_021337 : java.net.ConnectException: Call From DDP-DN-B040/10.5.31.40 to DDP-DN-081:47929 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.GeneratedConstructorAccessor100.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:731)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:232)
+	at com.sun.proxy.$Proxy39.stopContainers(Unknown Source)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ContainerManagementProtocolPBClientImpl.stopContainers(ContainerManagementProtocolPBClientImpl.java:110)
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:187)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:102)
+	at com.sun.proxy.$Proxy40.stopContainers(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$Container.kill(ContainerLauncherImpl.java:206)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$EventProcessor.run(ContainerLauncherImpl.java:373)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:530)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:494)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:607)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:705)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:368)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1521)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1438)
+	... 15 more
+
+16/07/12 12:21:47 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010509_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:22:06 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010934_0, Status : FAILED
+AttemptID:attempt_1466142413951_123548_m_010934_0 Timed out after 600 secs
+Container released on a *lost* node
+cleanup failed for container container_1466142413951_123548_01_021496 : java.net.ConnectException: Call From DDP-DN-B040/10.5.31.40 to DDP-DN-081:47929 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.GeneratedConstructorAccessor100.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:731)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:232)
+	at com.sun.proxy.$Proxy39.stopContainers(Unknown Source)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ContainerManagementProtocolPBClientImpl.stopContainers(ContainerManagementProtocolPBClientImpl.java:110)
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:187)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:102)
+	at com.sun.proxy.$Proxy40.stopContainers(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$Container.kill(ContainerLauncherImpl.java:206)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$EventProcessor.run(ContainerLauncherImpl.java:373)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:530)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:494)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:607)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:705)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:368)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1521)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1438)
+	... 15 more
+
+16/07/12 12:22:07 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010710_0, Status : FAILED
+Container released on a *lost* node
+cleanup failed for container container_1466142413951_123548_01_021012 : java.net.ConnectException: Call From DDP-DN-B040/10.5.31.40 to DDP-DN-081:47929 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.GeneratedConstructorAccessor100.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:731)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:232)
+	at com.sun.proxy.$Proxy39.stopContainers(Unknown Source)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ContainerManagementProtocolPBClientImpl.stopContainers(ContainerManagementProtocolPBClientImpl.java:110)
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:187)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:102)
+	at com.sun.proxy.$Proxy40.stopContainers(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$Container.kill(ContainerLauncherImpl.java:206)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$EventProcessor.run(ContainerLauncherImpl.java:373)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:530)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:494)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:607)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:705)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:368)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1521)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1438)
+	... 15 more
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:22:24 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010821_0, Status : FAILED
+Container released on a *lost* node
+cleanup failed for container container_1466142413951_123548_01_021336 : java.net.ConnectException: Call From DDP-DN-B040/10.5.31.40 to DDP-DN-081:47929 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.GeneratedConstructorAccessor100.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:731)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:232)
+	at com.sun.proxy.$Proxy39.stopContainers(Unknown Source)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ContainerManagementProtocolPBClientImpl.stopContainers(ContainerManagementProtocolPBClientImpl.java:110)
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:187)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:102)
+	at com.sun.proxy.$Proxy40.stopContainers(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$Container.kill(ContainerLauncherImpl.java:206)
+	at org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl$EventProcessor.run(ContainerLauncherImpl.java:373)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:530)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:494)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:607)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:705)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:368)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1521)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1438)
+	... 15 more
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:22:28 INFO mapreduce.Job:  map 83% reduce 27%
+16/07/12 12:22:38 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_013483_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:24:17 INFO mapreduce.Job:  map 84% reduce 27%
+16/07/12 12:25:38 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_013940_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:25:44 INFO mapreduce.Job:  map 84% reduce 28%
+16/07/12 12:25:53 INFO mapreduce.Job:  map 85% reduce 28%
+16/07/12 12:26:25 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_014098_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:27:29 INFO mapreduce.Job:  map 86% reduce 28%
+16/07/12 12:28:23 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_010210_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:29:09 INFO mapreduce.Job:  map 87% reduce 28%
+16/07/12 12:30:03 INFO mapreduce.Job:  map 87% reduce 29%
+16/07/12 12:30:59 INFO mapreduce.Job:  map 88% reduce 29%
+16/07/12 12:31:09 INFO mapreduce.Job:  map 87% reduce 29%
+16/07/12 12:31:18 INFO mapreduce.Job:  map 88% reduce 29%
+16/07/12 12:32:58 INFO mapreduce.Job:  map 89% reduce 29%
+16/07/12 12:34:39 INFO mapreduce.Job:  map 90% reduce 29%
+16/07/12 12:35:03 INFO mapreduce.Job:  map 90% reduce 30%
+16/07/12 12:36:35 INFO mapreduce.Job:  map 91% reduce 30%
+16/07/12 12:38:07 INFO mapreduce.Job:  map 92% reduce 30%
+16/07/12 12:39:36 INFO mapreduce.Job:  map 93% reduce 30%
+16/07/12 12:40:48 INFO mapreduce.Job:  map 93% reduce 31%
+16/07/12 12:41:10 INFO mapreduce.Job:  map 94% reduce 31%
+16/07/12 12:42:42 INFO mapreduce.Job:  map 95% reduce 31%
+16/07/12 12:44:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_015826_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:44:14 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_015462_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:44:19 INFO mapreduce.Job:  map 96% reduce 31%
+16/07/12 12:45:25 INFO mapreduce.Job:  map 96% reduce 32%
+16/07/12 12:45:41 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_015735_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:45:52 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_014730_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:45:52 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_013134_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:45:52 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_014625_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:45:53 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_015657_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:45:54 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_015228_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:46:00 INFO mapreduce.Job:  map 97% reduce 32%
+16/07/12 12:47:29 INFO mapreduce.Job:  map 98% reduce 32%
+16/07/12 12:49:12 INFO mapreduce.Job:  map 99% reduce 32%
+16/07/12 12:49:20 INFO mapreduce.Job:  map 99% reduce 33%
+16/07/12 12:49:29 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_015968_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:50:32 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_016272_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 12:51:48 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_016548_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 12:52:05 INFO mapreduce.Job:  map 100% reduce 33%
+16/07/12 12:59:30 INFO mapreduce.Job:  map 100% reduce 34%
+16/07/12 13:03:41 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_015962_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 13:03:57 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_016540_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 13:04:12 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_016596_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 13:04:31 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_016715_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 13:04:31 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_016081_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 13:04:32 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_016066_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+16/07/12 13:04:32 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_015948_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 13:12:06 INFO mapreduce.Job:  map 100% reduce 35%
+16/07/12 13:13:15 INFO mapreduce.Job:  map 100% reduce 37%
+16/07/12 13:13:16 INFO mapreduce.Job:  map 100% reduce 39%
+16/07/12 13:13:18 INFO mapreduce.Job:  map 100% reduce 40%
+16/07/12 13:13:19 INFO mapreduce.Job:  map 100% reduce 43%
+16/07/12 13:13:20 INFO mapreduce.Job:  map 100% reduce 45%
+16/07/12 13:13:21 INFO mapreduce.Job:  map 100% reduce 47%
+16/07/12 13:13:22 INFO mapreduce.Job:  map 100% reduce 49%
+16/07/12 13:13:23 INFO mapreduce.Job:  map 100% reduce 51%
+16/07/12 13:13:24 INFO mapreduce.Job:  map 100% reduce 52%
+16/07/12 13:13:25 INFO mapreduce.Job:  map 100% reduce 54%
+16/07/12 13:13:26 INFO mapreduce.Job:  map 100% reduce 55%
+16/07/12 13:13:27 INFO mapreduce.Job:  map 100% reduce 56%
+16/07/12 13:13:28 INFO mapreduce.Job:  map 100% reduce 57%
+16/07/12 13:13:29 INFO mapreduce.Job:  map 100% reduce 58%
+16/07/12 13:13:30 INFO mapreduce.Job:  map 100% reduce 59%
+16/07/12 13:13:31 INFO mapreduce.Job:  map 100% reduce 60%
+16/07/12 13:13:32 INFO mapreduce.Job:  map 100% reduce 61%
+16/07/12 13:13:33 INFO mapreduce.Job:  map 100% reduce 62%
+16/07/12 13:13:34 INFO mapreduce.Job:  map 100% reduce 63%
+16/07/12 13:13:35 INFO mapreduce.Job:  map 100% reduce 64%
+16/07/12 13:13:37 INFO mapreduce.Job:  map 100% reduce 65%
+16/07/12 13:13:38 INFO mapreduce.Job:  map 100% reduce 66%
+16/07/12 13:13:40 INFO mapreduce.Job:  map 100% reduce 67%
+16/07/12 13:13:41 INFO mapreduce.Job:  map 100% reduce 68%
+16/07/12 13:13:43 INFO mapreduce.Job:  map 100% reduce 69%
+16/07/12 13:13:46 INFO mapreduce.Job:  map 100% reduce 70%
+16/07/12 13:13:48 INFO mapreduce.Job:  map 100% reduce 71%
+16/07/12 13:13:51 INFO mapreduce.Job:  map 100% reduce 72%
+16/07/12 13:13:54 INFO mapreduce.Job:  map 100% reduce 73%
+16/07/12 13:13:56 INFO mapreduce.Job:  map 100% reduce 74%
+16/07/12 13:13:59 INFO mapreduce.Job:  map 100% reduce 75%
+16/07/12 13:14:02 INFO mapreduce.Job:  map 100% reduce 76%
+16/07/12 13:14:06 INFO mapreduce.Job:  map 100% reduce 77%
+16/07/12 13:14:09 INFO mapreduce.Job: Task Id : attempt_1466142413951_123548_m_007369_0, Status : FAILED
+Too Many fetch failures.Failing the attempt
+16/07/12 13:14:10 INFO mapreduce.Job:  map 100% reduce 78%
+16/07/12 13:14:15 INFO mapreduce.Job:  map 100% reduce 79%
+16/07/12 13:14:20 INFO mapreduce.Job:  map 100% reduce 80%
+16/07/12 13:14:26 INFO mapreduce.Job:  map 100% reduce 81%
+16/07/12 13:14:31 INFO mapreduce.Job:  map 100% reduce 82%
+16/07/12 13:14:38 INFO mapreduce.Job:  map 100% reduce 83%
+16/07/12 13:14:46 INFO mapreduce.Job:  map 100% reduce 84%
+16/07/12 13:14:56 INFO mapreduce.Job:  map 100% reduce 85%
+16/07/12 13:15:08 INFO mapreduce.Job:  map 100% reduce 86%
+16/07/12 13:15:20 INFO mapreduce.Job:  map 100% reduce 87%
+16/07/12 13:15:33 INFO mapreduce.Job:  map 100% reduce 88%
+16/07/12 13:15:45 INFO mapreduce.Job:  map 100% reduce 89%
+16/07/12 13:15:58 INFO mapreduce.Job:  map 100% reduce 90%
+16/07/12 13:16:17 INFO mapreduce.Job:  map 100% reduce 91%
+16/07/12 13:16:43 INFO mapreduce.Job:  map 100% reduce 92%
+16/07/12 13:17:12 INFO mapreduce.Job:  map 100% reduce 93%
+16/07/12 13:17:45 INFO mapreduce.Job:  map 100% reduce 94%
+16/07/12 13:18:28 INFO mapreduce.Job:  map 100% reduce 95%
+16/07/12 13:19:17 INFO mapreduce.Job:  map 100% reduce 96%
+16/07/12 13:20:33 INFO mapreduce.Job:  map 100% reduce 97%
+16/07/12 13:22:35 INFO mapreduce.Job:  map 100% reduce 98%
+16/07/12 13:24:50 INFO mapreduce.Job:  map 100% reduce 99%
+16/07/12 13:29:50 INFO mapreduce.Job:  map 100% reduce 100%
+16/07/12 13:43:55 INFO mapreduce.Job: Job job_1466142413951_123548 completed successfully
+16/07/12 13:43:55 INFO mapreduce.Job: Counters: 64
+	File System Counters
+		FILE: Number of bytes read=244739463114
+		FILE: Number of bytes written=491624545545
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1562009547158
+		HDFS: Number of bytes written=171711229091
+		HDFS: Number of read operations=86620
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=104054
+	Job Counters 
+		Failed map tasks=175
+		Killed map tasks=135
+		Killed reduce tasks=4
+		Launched map tasks=17574
+		Launched reduce tasks=104
+		Other local map tasks=294
+		Data-local map tasks=17199
+		Rack-local map tasks=81
+		Total time spent by all maps in occupied slots (ms)=9945700894
+		Total time spent by all reduces in occupied slots (ms)=7917135128
+		Total time spent by all map tasks (ms)=9945700894
+		Total time spent by all reduce tasks (ms)=989641891
+		Total vcore-seconds taken by all map tasks=9945700894
+		Total vcore-seconds taken by all reduce tasks=989641891
+		Total megabyte-seconds taken by all map tasks=10184397715456
+		Total megabyte-seconds taken by all reduce tasks=8107146371072
+	Map-Reduce Framework
+		Map input records=13780194557
+		Map output records=19332820669
+		Map output bytes=205996521986
+		Map output materialized bytes=244672521724
+		Input split bytes=2434224
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1091
+		Reduce shuffle bytes=244672521724
+		Reduce input records=19332820669
+		Reduce output records=1091
+		Spilled Records=38670403793
+		Shuffled Maps =1726400
+		Failed Shuffles=60716
+		Merged Map outputs=1726400
+		GC time elapsed (ms)=165817463
+		CPU time spent (ms)=9882063340
+		Physical memory (bytes) snapshot=8128992030720
+		Virtual memory (bytes) snapshot=26387571290112
+		Total committed heap usage (bytes)=12071359479808
+	Original Data
+		invalid=95018
+		total=13780194557
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=10784
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	Terminal Data
+		total=1583787813
+	Terminal Output Number
+		total=142255147
+	Terminal Type
+		imei_match=87692709
+		imei_total=10269850921
+		imsi_match=178072952
+		imsi_total=2027629660
+		mdn_match=6491109
+		mdn_total=6490826548
+	File Input Format Counters 
+		Bytes Read=1562007112934
+	File Output Format Counters 
+		Bytes Written=52145
+summarize:
+Original Data Total: 13780194557 Invalid: 95018 Percent: 0.0%
+Terminal Data Total: 1583787813 Invalid: 0 Percent: 0.0%
+Terminal Output Number :
+valid output : 142255147
+Terminal Type :
+imei Total: 10269850921 Match: 87692709 Percent: 0.85388494%
+imsi Total: 2027629660 Match: 178072952 Percent: 8.782321%
+mdn Total: 6490826548 Match: 6491109 Percent: 0.100004345%
+
+Success!
+output path ------> private/terminal/use_w/20160709
+uniqimei	4461022
+uniqimsi	3969804
+unicom	152788
+virtualTelecom	684
+other	29004
+virtualUnicom	1509
+telecom	102978
+virtualMobile	1161
+mobile	607487
+uniqmdn	895611
+2474	254	254	100.0%	2	0.78740156%	0.78740156%
+2636	59495	1868	3.1397595%	118	6.3169165%	0.19833599%
+2717	388409	13352	3.4376135%	6300	47.18394%	1.6220015%
+3446	2	0	0.0%	0	0.0%	0.0%
+3527	1329555	22563	1.697034%	2898	12.844037%	0.21796766%
+357	16640	13601	81.73678%	4018	29.541945%	24.146635%
+438	11741940	0	0.0%	0	0.0%	0.0%
+690	114365	92136	80.56311%	14008	15.203612%	12.248503%
+771	38218	30324	79.34481%	21465	70.785515%	56.164635%
+933	4544	2261	49.757923%	1543	68.24414%	33.956867%
+1133	4179972	408	0.009760831%	96	23.529411%	0.0022966661%
+1908	510	0	0.0%	0	0.0%	0.0%
+2600	2247	2170	96.57321%	1753	80.78341%	78.01513%
+2970	67725	47104	69.551865%	2039	4.3287196%	3.010705%
+3410	9448292	0	0.0%	0	0.0%	0.0%
+3447	451690	6255	1.3847994%	2591	41.422863%	0.5736235%
+3528	149	12	8.053691%	10	83.333336%	6.7114096%
+358	320338	23	0.0071799164%	10	43.47826%	0.0031217027%
+439	20982	17245	82.1895%	2726	15.807481%	12.992088%
+691	13283	10954	82.46631%	4660	42.54154%	35.082436%
+853	333	292	87.68769%	222	76.0274%	66.666664%
+160	4984	4158	83.42696%	1384	33.285233%	27.76886%
+1909	1	0	0.0%	0	0.0%	0.0%
+2520	723196	13	0.0017975763%	9	69.23077%	0.001244476%
+2557	45974	0	0.0%	0	0.0%	0.0%
+2601	1093	965	88.289116%	668	69.2228%	61.116196%
+2638	5244276	71015	1.354143%	6305	8.878406%	0.120226316%
+2719	4884604	6567	0.13444284%	497	7.568144%	0.010174827%
+2890	2938	1477	50.272293%	1109	75.08463%	37.746765%
+3411	3184313	44204	1.3881801%	1068	2.416071%	0.033539418%
+3448	21646852	11193	0.051707286%	2179	19.467524%	0.010066128%
+3529	41119	52	0.12646222%	39	75.0%	0.094846666%
+692	158390	131028	82.72492%	44971	34.32167%	28.392576%
+854	270979	1	3.690323E-4%	1	100.0%	3.690323E-4%
+1054	2648	1534	57.930515%	299	19.491526%	11.291541%
+161	113932	93333	81.919914%	40246	43.12087%	35.32458%
+1630	11741940	0	0.0%	0	0.0%	0.0%
+242	21	2	9.523809%	2	100.0%	9.523809%
+2521	7299574	0	0.0%	0	0.0%	0.0%
+2639	61460	8499	13.828506%	3932	46.264267%	6.397657%
+2891	458141	7884	1.7208676%	3511	44.533234%	0.76635796%
+3250	6858	1052	15.339749%	232	22.053232%	3.3829105%
+3287	50719	3621	7.139336%	1336	36.895885%	2.6341214%
+3412	1239	3	0.24213076%	1	33.333332%	0.08071025%
+693	11866	9921	83.60863%	9145	92.17821%	77.06894%
+855	8	5	62.5%	4	80.0%	50.0%
+1055	2423	371	15.311597%	137	36.927223%	5.6541476%
+2522	9448292	16	1.6934278E-4%	8	50.0%	8.467139E-5%
+2559	9448292	5	5.291962E-5%	3	60.0%	3.175177E-5%
+3170	2195920	82902	3.775274%	4302	5.1892595%	0.19590877%
+3251	12153	1528	12.573028%	567	37.10733%	4.6655145%
+3413	265	7	2.6415095%	3	42.857143%	1.1320754%
+694	1985316	1624683	81.834984%	380653	23.42937%	19.173422%
+775	123319	22614	18.337807%	9361	41.39471%	7.5908823%
+1056	264	175	66.28788%	23	13.142858%	8.712121%
+1713	388409	473	0.121778846%	189	39.957718%	0.048660047%
+2398	11741940	24	2.0439553E-4%	13	54.166668%	1.10714245E-4%
+2479	10020700	2597	0.025916353%	1000	38.50597%	0.009979343%
+2604	79308	74048	93.36763%	39635	53.526093%	49.976044%
+3090	723196	639	0.08835779%	288	45.070423%	0.03982323%
+3171	10020700	2	1.9958685E-5%	2	100.0%	1.9958685E-5%
+3252	96612	14917	15.440111%	1211	8.118255%	1.2534674%
+3289	1123	1122	99.91095%	972	86.63102%	86.55387%
+695	289985	235600	81.24558%	133330	56.591682%	45.97824%
+776	11246	5872	52.21412%	1310	22.309265%	11.648586%
+938	2647	1500	56.667927%	642	42.8%	24.253872%
+1057	664	374	56.325302%	120	32.08556%	18.072289%
+1101	1318932	164	0.012434303%	45	27.439024%	0.0034118514%
+2281	262823	0	0.0%	0	0.0%	0.0%
+3172	11893	10519	88.44698%	6500	61.792946%	54.654%
+3253	26966	2517	9.333976%	1450	57.608265%	5.3771415%
+696	731307	608211	83.16767%	103517	17.019917%	14.155067%
+821	3848	3041	79.02807%	2902	95.42914%	75.4158%
+939	86	54	62.7907%	49	90.74074%	56.976746%
+1058	176931132	17407	0.009838291%	7104	40.81117%	0.0040151216%
+1102	2780685	11845	0.4259742%	8518	71.9122%	0.3063274%
+1139	28663	9266	32.327393%	1871	20.1921%	6.5275793%
+2444	176931132	4226	0.0023885%	2193	51.893044%	0.0012394653%
+246	332	193	58.13253%	117	60.62176%	35.240963%
+2895	13336675	10742	0.080544814%	2483	23.114876%	0.018617833%
+2976	57750	29978	51.909958%	13375	44.61605%	23.160173%
+3092	5801444	63385	1.0925728%	8695	13.717756%	0.14987648%
+3173	11743	10339	88.04394%	6290	60.837605%	53.563824%
+3254	56750	10447	18.40881%	1039	9.945439%	1.830837%
+3416	187	102	54.545456%	97	95.09804%	51.87166%
+697	1543	1104	71.54893%	324	29.347826%	20.998056%
+903	451336900	245	5.4283177E-5%	155	63.265305%	3.4342418E-5%
+2364	48	5	10.416667%	5	100.0%	10.416667%
+247	644	388	60.248447%	176	45.360825%	27.329193%
+2607	3	0	0.0%	0	0.0%	0.0%
+2896	142	142	100.0%	41	28.87324%	28.87324%
+2977	176931132	578	3.2668078E-4%	67	11.591696%	3.786784E-5%
+3174	26268912	7143	0.027191838%	735	10.289794%	0.0027979843%
+3255	168235	25033	14.879782%	1473	5.884233%	0.875561%
+3336	458141	258	0.05631454%	109	42.248062%	0.023791801%
+698	7075	5958	84.21201%	2223	37.31118%	31.420494%
+130	451336900	93	2.060545E-5%	38	40.860214%	8.419432E-6%
+1555	709642	165236	23.284416%	20509	12.411944%	2.8900487%
+1636	216441	21172	9.78188%	2243	10.594181%	1.0363101%
+248	2169	2051	94.55971%	1706	83.17894%	78.653755%
+2527	176931132	76	4.2954565E-5%	10	13.157895%	5.6519166E-6%
+2608	9448292	7	7.408747E-5%	1	14.285714%	1.05839235E-5%
+2860	86306	4	0.004634672%	3	75.0%	0.0034760039%
+2978	10020700	2100	0.02095662%	66	3.142857%	6.586366E-4%
+3094	6306057	843	0.0133681%	207	24.55516%	0.0032825584%
+3175	11224	1442	12.847469%	456	31.622746%	4.0627227%
+699	374	183	48.93048%	147	80.327866%	39.304813%
+905	216441	23582	10.895348%	2385	10.113646%	1.1019169%
+1105	5392	827	15.337537%	649	78.47642%	12.03635%
+1394	79308	90	0.11348162%	71	78.888885%	0.08952439%
+1556	709642	165236	23.284416%	20509	12.411944%	2.8900487%
+2366	9448292	24328	0.2574857%	14887	61.192863%	0.15756287%
+249	768	734	95.572914%	622	84.74114%	80.989586%
+2861	332392	8072	2.428458%	5681	70.37909%	1.7091266%
+2898	176931132	0	0.0%	0	0.0%	0.0%
+3176	56471161	1	1.7708154E-6%	1	100.0%	1.7708154E-6%
+3257	6306057	0	0.0%	0	0.0%	0.0%
+3590	11227	11226	99.9911%	2347	20.906824%	20.90496%
+1106	124	111	89.51613%	74	66.666664%	59.677418%
+1395	1	0	0.0%	0	0.0%	0.0%
+1520	16008	14044	87.73113%	13432	95.642265%	83.90804%
+1890	451336900	0	0.0%	0	0.0%	0.0%
+1971	270979	1	3.690323E-4%	1	100.0%	3.690323E-4%
+2781	458141	21	0.0045837415%	18	85.71429%	0.0039289217%
+2862	16072	6896	42.906918%	1866	27.059164%	11.610254%
+2899	10020700	20	1.9958685E-4%	1	5.0%	9.979342E-6%
+3096	14	0	0.0%	0	0.0%	0.0%
+3221	36104	9229	25.562265%	2234	24.206306%	6.1876802%
+3339	399607	117219	29.33357%	9969	8.504594%	2.4947011%
+3591	10020700	25	2.4948356E-4%	12	48.0%	1.1975211E-4%
+664	451336900	0	0.0%	0	0.0%	0.0%
+745	725487	618250	85.21862%	281919	45.599514%	38.859276%
+1026	1035	842	81.35265%	663	78.74109%	64.05797%
+1107	5944	5144	86.541046%	2579	50.13608%	43.38829%
+1396	16208	12532	77.31984%	7088	56.559208%	43.73149%
+1440	1442	523	36.26907%	229	43.78585%	15.880721%
+1521	11836	10338	87.3437%	9533	92.213196%	80.54241%
+1639	288056	12	0.0041658566%	11	91.666664%	0.003818702%
+2863	356466	11163	3.1315749%	1861	16.671146%	0.52206945%
+3222	14	12	85.71429%	1	8.333333%	7.142857%
+584	5392	4876	90.43027%	3573	73.277275%	66.26484%
+908	6306057	0	0.0%	0	0.0%	0.0%
+1027	89	78	87.64045%	68	87.17949%	76.404495%
+1108	502	416	82.86852%	281	67.54808%	55.976097%
+1441	37623	16850	44.786434%	2804	16.64095%	7.452888%
+1522	2769	2534	91.51318%	1781	70.284134%	64.31925%
+1892	370023	330222	89.243645%	80827	24.476564%	21.843777%
+1973	2543	1651	64.92332%	359	21.744398%	14.117185%
+215	1380361	79	0.0057231407%	10	12.658228%	7.244482E-4%
+2945	92378392	126	1.3639554E-4%	6	4.7619047%	6.4950254E-6%
+3142	107254	31257	29.14297%	21460	68.656624%	20.008577%
+3179	12153	1498	12.326175%	551	36.782375%	4.5338597%
+3304	666107	3	4.5037808E-4%	2	66.666664%	3.0025205E-4%
+710	3465559	1286094	37.11072%	188237	14.6363325%	5.431649%
+1028	334	299	89.52096%	240	80.267555%	71.856285%
+1398	4	4	100.0%	3	75.0%	75.0%
+1442	2616	376	14.373089%	314	83.510635%	12.003058%
+1523	114365	92801	81.144585%	16767	18.067694%	14.6609535%
+1893	7299574	0	0.0%	0	0.0%	0.0%
+2414	80699985	47091961	58.35436%	1789063	3.799084%	2.216931%
+2784	270979	20	0.0073806457%	8	40.0%	0.0029522583%
+3099	6306057	294	0.0046621845%	96	32.65306%	0.0015223459%
+3143	143644	9	0.00626549%	8	88.888885%	0.0055693244%
+586	2046	333	16.27566%	204	61.26126%	9.9706745%
+711	2442384	1982206	81.15866%	411794	20.77453%	16.86033%
+829	31	26	83.870964%	9	34.615383%	29.032259%
+1029	21489	5256	24.459026%	2396	45.586%	11.149891%
+1443	8665	3129	36.11079%	1090	34.83541%	12.579342%
+1524	919	845	91.94777%	455	53.846153%	49.510338%
+2910	156626	34720	22.167456%	10833	31.201036%	6.9164762%
+2947	21646852	50226	0.2320245%	47831	95.23155%	0.22096053%
+3144	1380361	144	0.010432053%	15	10.416667%	0.0010866723%
+3225	723196	111	0.015348536%	83	74.77477%	0.011476833%
+587	1763	4	0.22688599%	1	25.0%	0.056721497%
+712	2390	1885	78.87029%	1019	54.058357%	42.635983%
+1363	48	6	12.5%	6	100.0%	12.5%
+137	123	103	83.73984%	84	81.5534%	68.29269%
+1444	10386	3437	33.092625%	1112	32.353798%	10.70672%
+1525	2799	2432	86.888176%	396	16.282894%	14.14791%
+2254	255796	99042	38.719135%	6097	6.1559744%	2.38354%
+2786	10666746	18858	0.17679243%	1854	9.831371%	0.01738112%
+2830	7148	1	0.013989927%	1	100.0%	0.013989927%
+2867	49641	5675	11.432082%	430	7.5770926%	0.86621946%
+2948	1763	1572	89.16619%	559	35.559795%	31.707317%
+3226	33	33	100.0%	25	75.757576%	75.757576%
+3307	117	0	0.0%	0	0.0%	0.0%
+470	26268912	3179	0.012101757%	422	13.274614%	0.0016064617%
+588	16987	6	0.035321128%	3	50.0%	0.017660564%
+632	451336900	0	0.0%	0	0.0%	0.0%
+669	3205828	0	0.0%	0	0.0%	0.0%
+713	4243877	3444683	81.168304%	376948	10.942894%	8.882161%
+101	510	119	23.333334%	82	68.90756%	16.078432%
+1445	4433	387	8.7299795%	310	80.103355%	6.993007%
+1526	305658	282369	92.3807%	108276	38.34557%	35.423904%
+2750	176931132	12319	0.006962596%	970	7.874016%	5.482359E-4%
+2949	16987	2863	16.854065%	1426	49.807896%	8.394654%
+3146	8	0	0.0%	0	0.0%	0.0%
+471	25	10	40.0%	8	80.0%	32.0%
+633	1339794	22	0.0016420435%	7	31.818182%	5.2246836E-4%
+714	305658	251234	82.19448%	96346	38.34911%	31.52085%
+102	2313	566	24.470385%	281	49.646645%	12.148725%
+1446	2735	933	34.113346%	416	44.587353%	15.2102375%
+1527	4243877	3924819	92.48192%	433049	11.033605%	10.204089%
+2094	11741940	17	1.4478016E-4%	8	47.058823%	6.813184E-5%
+2175	270979	194691	71.84727%	3130	1.6076758%	1.155071%
+2670	49641	6933	13.966278%	487	7.0243764%	0.9810439%
+2751	10020700	14885	0.14854252%	641	4.306349%	0.006396759%
+2913	86306	755	0.87479436%	370	49.006622%	0.42870715%
+3147	133	0	0.0%	0	0.0%	0.0%
+3228	458141	99	0.021609068%	49	49.49495%	0.010695397%
+3480	6306057	0	0.0%	0	0.0%	0.0%
+3561	92378392	314	3.399063E-4%	22	7.0063696%	2.3815093E-5%
+634	26268912	14	5.3294938E-5%	4	28.571428%	1.5227125E-5%
+715	1352590	1096865	81.09367%	365909	33.359528%	27.05247%
+1447	1139	252	22.12467%	199	78.968254%	17.471466%
+1528	43573	40062	91.94226%	10815	26.995657%	24.820415%
+2752	12	0	0.0%	0	0.0%	0.0%
+2789	50965	10580	20.759344%	755	7.136106%	1.4814088%
+2833	42984	5246	12.204541%	1934	36.866184%	4.4993486%
+2914	10020700	2447	0.024419451%	101	4.127503%	0.0010079136%
+3030	1463	1397	95.48872%	839	60.057266%	57.347916%
+3111	151683	3100	2.043736%	258	8.32258%	0.17009157%
+3148	129	0	0.0%	0	0.0%	0.0%
+3229	176931132	0	0.0%	0	0.0%	0.0%
+473	211	81	38.388626%	70	86.419754%	33.175354%
+716	284925	226606	79.53181%	19897	8.780438%	6.983241%
+1411	11741940	28	2.3846145E-4%	17	60.714287%	1.4478016E-4%
+1529	4404	4104	93.18801%	3594	87.5731%	81.60763%
+1899	144933	124285	85.75342%	24297	19.549423%	16.764297%
+2140	21819	0	0.0%	0	0.0%	0.0%
+2177	21139	8931	42.248924%	7306	81.80495%	34.56171%
+2591	21380	0	0.0%	0	0.0%	0.0%
+2672	638025	27511	4.3119%	1763	6.4083457%	0.27632147%
+2915	176931132	2903	0.0016407514%	227	7.819497%	1.282985E-4%
+3031	59152471	32	5.4097487E-5%	9	28.125%	1.5214918E-5%
+474	2627	638	24.286259%	440	68.965515%	16.749144%
+636	26268912	3802	0.014473382%	541	14.229353%	0.0020594685%
+717	21387	16113	75.34016%	11752	72.9349%	54.94927%
+1368	213	0	0.0%	0	0.0%	0.0%
+1412	3692079	3022621	81.86773%	243390	8.052283%	6.592221%
+1782	2046	346	16.911045%	221	63.872833%	10.801564%
+2097	2510	2	0.07968128%	2	100.0%	0.07968128%
+2303	26268912	35	1.3323734E-4%	3	8.571428%	1.1420344E-5%
+2592	911245	10998	1.2069201%	2625	23.867975%	0.28806743%
+2916	72245	28500	39.449097%	5146	18.05614%	7.1229844%
+3069	86306	10	0.01158668%	7	70.0%	0.008110676%
+3113	146128	0	0.0%	0	0.0%	0.0%
+3483	2543	18	0.7078254%	11	61.11111%	0.43255997%
+475	8827	2906	32.92172%	2418	83.20716%	27.393225%
+77	2668	2140	80.20989%	589	27.523365%	22.076462%
+970	26268912	537	0.0020442414%	504	93.85475%	0.0019186178%
+1369	288056	14	0.004860166%	11	78.57143%	0.003818702%
+1413	151993	36989	24.335989%	22800	61.639946%	15.00069%
+2755	4	4	100.0%	4	100.0%	100.0%
+2917	139549	36130	25.890547%	9747	26.977581%	6.9846435%
+3565	7299574	5	6.8497146E-5%	4	80.0%	5.4797718E-5%
+395	451336900	561	1.242974E-4%	436	77.71836%	9.66019E-5%
+601	6378	1839	28.83349%	1326	72.10441%	20.790216%
+1090	3987	517	12.967143%	459	88.78143%	11.512415%
+1333	17	15	88.23529%	8	53.333332%	47.058823%
+1784	451336900	0	0.0%	0	0.0%	0.0%
+2099	1549	1	0.064557776%	1	100.0%	0.064557776%
+2224	38218	29976	78.43424%	21257	70.9134%	55.620388%
+2594	11	0	0.0%	0	0.0%	0.0%
+2675	372863	0	0.0%	0	0.0%	0.0%
+2800	7778	7024	90.30599%	2396	34.111618%	30.804834%
+2918	1339794	262	0.019555245%	39	14.885496%	0.0029108953%
+3034	744	575	77.28494%	476	82.78261%	63.978493%
+3485	7299574	0	0.0%	0	0.0%	0.0%
+396	213	117	54.929577%	72	61.53846%	33.80282%
+440	592	281	47.466217%	78	27.758007%	13.175675%
+477	1318932	282	0.021380935%	64	22.695036%	0.004852411%
+891	2919	10	0.3425831%	8	80.0%	0.27406645%
+108	41119	27877	67.795906%	5502	19.7367%	13.380675%
+1253	10020700	52	5.1892584E-4%	15	28.846153%	1.4969014E-4%
+1334	170	30	17.647058%	30	100.0%	17.647058%
+1866	414715	33299	8.029369%	1536	4.612751%	0.37037483%
+2225	1142139	13	0.0011382152%	4	30.76923%	3.5022007E-4%
+2595	12	8	66.666664%	1	12.5%	8.333333%
+2720	150834	393	0.26055133%	26	6.615776%	0.017237494%
+2801	1	0	0.0%	0	0.0%	0.0%
+2919	203	0	0.0%	0	0.0%	0.0%
+3035	517616	3621	0.6995533%	414	11.433306%	0.07998207%
+3530	2524	0	0.0%	0	0.0%	0.0%
+397	1915406	8746	0.45661336%	6027	68.9115%	0.31465915%
+441	700	489	69.85714%	172	35.173824%	24.571428%
+478	544	372	68.382355%	37	9.946237%	6.8014708%
+892	325	138	42.46154%	121	87.68116%	37.23077%
+109	35846	8976	25.040451%	2901	32.31952%	8.092953%
+1173	8827	0	0.0%	0	0.0%	0.0%
+1254	10363	4499	43.41407%	939	20.871305%	9.061083%
+1335	350	38	10.857142%	34	89.47369%	9.714286%
+2596	19	19	100.0%	3	15.789474%	15.789474%
+2721	176931132	48	2.71292E-5%	12	25.0%	6.7823E-6%
+2758	59152471	488	8.2498667E-4%	204	41.80328%	3.4487146E-4%
+280	2101	1580	75.202286%	311	19.683544%	14.802475%
+2802	1249796	131424	10.515636%	18031	13.719716%	1.4427154%
+2839	1166	7	0.60034305%	2	28.571428%	0.17152658%
+3487	86	49	56.976746%	41	83.67347%	47.67442%
+3531	978833	47055	4.8072553%	1350	2.868983%	0.13791934%
+3568	9448292	37	3.9160516E-4%	19	51.351353%	2.0109455E-4%
+361	39	39	100.0%	3	7.6923075%	7.6923075%
+398	27	23	85.18519%	20	86.95652%	74.07407%
+442	9637	3595	37.304142%	2155	59.944366%	22.36173%
+479	278	229	82.3741%	76	33.187775%	27.338129%
+1174	176931132	27	1.5260175E-5%	7	25.925926%	3.9563415E-6%
+2560	1515682	23217	1.5317857%	5608	24.154715%	0.36999846%
+2597	31	31	100.0%	2	6.451613%	6.451613%
+2803	38218	1	0.002616568%	1	100.0%	0.002616568%
+281	4179972	66	0.0015789579%	13	19.69697%	3.1100688E-4%
+3118	1070597	46400	4.3340306%	3973	8.5625%	0.37110135%
+399	26268912	7240	0.027561096%	933	12.886741%	0.003551727%
+443	695	488	70.21583%	171	35.040985%	24.604317%
+524	1229	1110	90.31733%	614	55.315315%	49.959316%
+605	187	81	43.31551%	77	95.06173%	41.17647%
+1751	8726121	2226700	25.51764%	434387	19.508106%	4.978008%
+2480	176931132	1861	0.0010518216%	580	31.16604%	3.2781117E-4%
+2561	3793	1357	35.776432%	119	8.769344%	3.1373582%
+2642	16752250	132576	0.7913922%	11024	8.31523%	0.06580608%
+2679	97269	54328	55.853355%	1562	2.8751287%	1.605856%
+2804	6558	3084	47.02653%	2002	64.915695%	30.5276%
+3371	1915406	37964	1.9820341%	2481	6.5351386%	0.12952867%
+3452	94	5	5.319149%	1	20.0%	1.0638298%
+444	723196	3	4.148253E-4%	2	66.666664%	2.765502E-4%
+525	2318	592	25.539257%	294	49.662163%	12.683348%
+606	5167	1	0.01935359%	1	100.0%	0.01935359%
+1301	92378392	49444760	53.524162%	1795030	3.6303747%	1.9431276%
+1419	234	191	81.62393%	148	77.48691%	63.247864%
+2562	56471161	348	6.1624375E-4%	22	6.321839%	3.895794E-5%
+2805	86306	2	0.002317336%	2	100.0%	0.002317336%
+3002	2780685	1	3.5962363E-5%	1	100.0%	3.5962363E-5%
+3039	216438	19690	9.097294%	5129	26.048756%	2.3697317%
+3291	1618804	52161	3.2221937%	36691	70.34183%	2.2665498%
+364	65	35	53.846153%	20	57.142857%	30.76923%
+526	7823	1936	24.74754%	608	31.404959%	7.7719545%
+1140	4884604	0	0.0%	0	0.0%	0.0%
+1591	29	0	0.0%	0	0.0%	0.0%
+1915	7299574	48	6.5757264E-4%	39	81.25%	5.3427776E-4%
+2482	200213	85434	42.671555%	7707	9.020999%	3.8494003%
+2563	8	0	0.0%	0	0.0%	0.0%
+2725	451	402	89.135254%	206	51.243782%	45.676273%
+3373	28	0	0.0%	0	0.0%	0.0%
+3535	1519	1431	94.20672%	1426	99.6506%	93.87755%
+365	176931132	11	6.217108E-6%	8	72.72727%	4.5215334E-6%
+608	11741940	1	8.51648E-6%	1	100.0%	8.51648E-6%
+1259	4825	4159	86.19689%	3397	81.67829%	70.404144%
+1916	458141	7	0.0015279138%	2	28.571428%	4.3654683E-4%
+2483	1329555	22563	1.697034%	2898	12.844037%	0.21796766%
+2564	52	0	0.0%	0	0.0%	0.0%
+2726	56471161	5317	0.009415425%	161	3.0280232%	2.8510127E-4%
+3374	7	0	0.0%	0	0.0%	0.0%
+3455	58	0	0.0%	0	0.0%	0.0%
+366	6766	5533	81.77653%	2132	38.53244%	31.510494%
+609	79	14	17.72152%	10	71.42857%	12.658228%
+2484	3	3	100.0%	3	100.0%	100.0%
+2565	43515	8143	18.713087%	758	9.308609%	1.7419281%
+2727	152146	6748	4.4352136%	1029	15.248962%	0.67632407%
+3005	887584	23395	2.6358068%	2527	10.801454%	0.28470546%
+3375	9448292	7	7.408747E-5%	3	42.857143%	3.175177E-5%
+3500	59152471	26	4.3954205E-5%	1	3.8461537%	1.6905465E-6%
+3537	7823	1	0.01278282%	1	100.0%	0.01278282%
+367	1782	1471	82.5477%	592	40.24473%	33.2211%
+2485	86306	1598	1.8515514%	372	23.279099%	0.4310245%
+250	2169	2051	94.55971%	1706	83.17894%	78.653755%
+2728	1085751	30706	2.8280885%	8724	28.411385%	0.80349916%
+287	370023	291579	78.80024%	71049	24.366982%	19.201239%
+2980	80699985	244	3.0235446E-4%	17	6.967213%	2.106568E-5%
+3006	288056	13172	4.572722%	10625	80.66353%	3.688519%
+331	7299574	1452621	19.900078%	932806	64.21537%	12.77891%
+3420	861	773	89.77933%	410	53.040104%	47.61905%
+3501	673	673	100.0%	491	72.95691%	72.95691%
+3538	18424	18388	99.8046%	11893	64.67805%	64.551674%
+412	451336900	0	0.0%	0	0.0%	0.0%
+1144	1162	892	76.7642%	107	11.995516%	9.2082615%
+1595	284818	166980	58.62691%	7119	4.263385%	2.499491%
+170	11416725	2551	0.022344412%	1004	39.357117%	0.008794116%
+1720	583043	268746	46.093685%	155098	57.711742%	26.601469%
+251	8	7	87.5%	7	100.0%	87.5%
+2611	392	390	99.4898%	181	46.410255%	46.17347%
+2648	904	904	100.0%	425	47.013275%	47.013275%
+2981	59152471	32	5.4097487E-5%	16	50.0%	2.7048744E-5%
+3007	16752250	132148	0.7888373%	10984	8.3118925%	0.065567315%
+332	388409	479	0.12332361%	199	41.544884%	0.05123465%
+3340	3718848	13572	0.36495173%	1225	9.025936%	0.03294031%
+3502	812	812	100.0%	1	0.12315271%	0.12315271%
+3539	16945	16903	99.75214%	9155	54.161983%	54.027737%
+171	156626	5286	3.3749187%	3650	69.05032%	2.3303921%
+1721	243012	227293	93.53159%	91519	40.264767%	37.66028%
+1802	16752250	5	2.9846737E-5%	4	80.0%	2.387739E-5%
+252	52	51	98.07692%	18	35.294117%	34.615383%
+2649	10020700	0	0.0%	0	0.0%	0.0%
+3297	234041	32417	13.850992%	1815	5.598914%	0.7755051%
+3378	458141	507	0.11066462%	274	54.043392%	0.059806917%
+3459	47558	17401	36.58901%	6532	37.53807%	13.734808%
+784	7147	3967	55.505806%	2568	64.734055%	35.93116%
+865	294926	167369	56.74949%	1332	0.7958463%	0.45163873%
+1308	2668	2144	80.35982%	589	27.472015%	22.076462%
+1641	29132480	11546787	39.63544%	205324	1.7781917%	0.7047941%
+1722	124879	115722	92.667305%	16328	14.109676%	13.075057%
+2488	21	0	0.0%	0	0.0%	0.0%
+2532	87838	2	0.0022769189%	1	50.0%	0.0011384594%
+2613	53	6	11.320755%	5	83.333336%	9.433962%
+3180	56750	10591	18.662556%	1025	9.678028%	1.8061674%
+3298	2208	2201	99.68297%	2148	97.592%	97.28261%
+785	122	91	74.590164%	88	96.7033%	72.13115%
+866	6306057	92	0.0014589148%	92	100.0%	0.0014589148%
+1723	824	777	94.29612%	272	35.006435%	33.00971%
+2489	344	0	0.0%	0	0.0%	0.0%
+3181	96612	15250	15.784789%	1158	7.5934424%	1.1986089%
+3424	7299574	4115	0.056373153%	439	10.668286%	0.0060140495%
+786	19	14	73.68421%	14	100.0%	73.68421%
+867	11214	9429	84.0824%	7338	77.82374%	65.436066%
+1724	4434344	4021175	90.682526%	306783	7.629188%	6.91834%
+2534	9448292	0	0.0%	0	0.0%	0.0%
+3182	6858	1069	15.587635%	226	21.141254%	3.2954214%
+3263	771152	13408	1.7386974%	3234	24.119928%	0.4193726%
+3344	80699985	244	3.0235446E-4%	17	6.967213%	2.106568E-5%
+3506	6306057	4844	0.07681504%	2044	42.196533%	0.03241328%
+417	452	138	30.530973%	99	71.73913%	21.902655%
+787	14	10	71.42857%	10	100.0%	71.42857%
+831	34895	16562	47.462387%	7516	45.380993%	21.538902%
+868	12444	2428	19.511412%	953	39.250412%	7.6583095%
+1112	1915406	16971	0.88602626%	5921	34.888927%	0.30912507%
+1725	113932	107650	94.48618%	45721	42.4719%	40.130077%
+2003	3692079	2755904	74.64369%	260835	9.464589%	7.0647187%
+3183	26966	2485	9.215308%	1398	56.257545%	5.184306%
+3426	20982	797	3.7984939%	124	15.558344%	0.59098274%
+3507	798617	69688	8.726086%	4476	6.4229136%	0.5604689%
+418	437	134	30.663616%	95	70.89552%	21.73913%
+788	12	3	25.0%	3	100.0%	25.0%
+869	1469	631	42.95439%	404	64.02536%	27.501701%
+1032	26293	18425	70.07568%	9669	52.47761%	36.774048%
+1113	1998220	1328	0.06645915%	1075	80.94879%	0.05379788%
+1726	2169	1837	84.693405%	1533	83.45128%	70.677734%
+2293	1	0	0.0%	0	0.0%	0.0%
+2455	14512374	1211235	8.346223%	44315	3.6586626%	0.3053601%
+2987	24	0	0.0%	0	0.0%	0.0%
+3184	168235	25572	15.200167%	1405	5.494291%	0.8351413%
+3346	10363	310	2.9914117%	49	15.806452%	0.47283605%
+3427	7299574	0	0.0%	0	0.0%	0.0%
+590	3640	2197	60.357143%	1074	48.884842%	29.505495%
+1114	214	71	33.17757%	18	25.352112%	8.411215%
+1484	158390	149158	94.17135%	51179	34.31194%	32.312016%
+1727	328733	307774	93.624306%	107605	34.96234%	32.733253%
+221	20	12	60.0%	10	83.333336%	50.0%
+2500	251	80	31.87251%	54	67.5%	21.513945%
+2537	234	228	97.4359%	1	0.4385965%	0.42735043%
+2618	176931132	1896	0.0010716034%	588	31.01266%	3.3233268E-4%
+2870	43515	9164	21.059404%	826	9.013532%	1.898196%
+3310	150834	61	0.04044181%	3	4.9180326%	0.0019889416%
+3347	151683	850	0.5603792%	75	8.823529%	0.049445223%
+3428	4336	3525	81.29613%	487	13.815603%	11.23155%
+591	8407	2622	31.188295%	1054	40.198322%	12.537171%
+834	538	433	80.48327%	157	36.25866%	29.182156%
+1485	255738	232081	90.74952%	108474	46.739716%	42.416065%
+1728	4984	4681	93.92055%	1577	33.689384%	31.641253%
+178	4746	2369	49.915718%	1483	62.600254%	31.247366%
+2457	2135818	856788	40.115215%	66051	7.7091417%	3.0925388%
+2538	340	340	100.0%	15	4.4117646%	4.4117646%
+259	1543133	1434	0.09292783%	177	12.343096%	0.011470172%
+2871	8390207	566232	6.748725%	69402	12.256813%	0.82717866%
+2989	26293	0	0.0%	0	0.0%	0.0%
+3186	816455	32641	3.9978933%	32400	99.261665%	3.9683754%
+3348	1339794	130	0.009702984%	10	7.6923075%	7.463834E-4%
+3429	5568698	18223	0.32723987%	2636	14.465237%	0.04733602%
+592	24267	6542	26.958422%	2792	42.67808%	11.505337%
+673	43573	36375	83.4806%	9579	26.33402%	21.983797%
+1035	213	0	0.0%	0	0.0%	0.0%
+1486	731307	683645	93.48262%	116335	17.016872%	15.90782%
+1530	289985	269559	92.956184%	153773	57.04614%	53.027916%
+1567	68579458	1723575	2.5132527%	77904	4.519908%	0.1135967%
+1611	725487	612704	84.45417%	282705	46.140553%	38.967617%
+1729	356701	331496	92.93386%	80546	24.29773%	22.580816%
+2502	4735	1232	26.019007%	179	14.529221%	3.780359%
+2539	210	204	97.14286%	1	0.49019608%	0.47619048%
+2791	5252	33	0.6283321%	5	15.151515%	0.09520183%
+304	2237	661	29.548502%	298	45.083206%	13.321413%
+3150	2780685	25	8.9905906E-4%	2	8.0%	7.1924725E-5%
+3349	146128	1	6.843315E-4%	1	100.0%	6.843315E-4%
+593	3626	2871	79.178154%	616	21.455938%	16.988417%
+674	11174	9225	82.557724%	4522	49.01897%	40.468945%
+836	266	50	18.796993%	45	90.0%	16.917294%
+1036	9448292	21071	0.22301385%	12607	59.831047%	0.13343152%
+1450	204	191	93.62745%	148	77.48691%	72.54902%
+1487	72935	68446	93.84521%	32015	46.774097%	43.89525%
+1531	5341	4818	90.207825%	1589	32.98049%	29.750982%
+224	333	249	74.77477%	92	36.947792%	27.627628%
+2873	1318932	44550	3.377733%	1686	3.7845118%	0.1278307%
+3269	6754291	34735	0.51426566%	5932	17.077875%	0.08782565%
+594	3491	1913	54.798054%	1077	56.299007%	30.85076%
+675	2824750	2269585	80.3464%	283315	12.483119%	10.029737%
+837	480	436	90.833336%	302	69.26605%	62.916668%
+1488	1543	1425	92.35256%	388	27.22807%	25.14582%
+1532	328951	306177	93.07678%	141353	46.167088%	42.970837%
+1613	213	0	0.0%	0	0.0%	0.0%
+2379	568335	41898	7.3720603%	3757	8.967015%	0.6610538%
+2504	4179972	9689	0.23179582%	5283	54.52575%	0.1263884%
+2874	20934	1253	5.9854784%	1066	85.07582%	5.0921946%
+676	919	752	81.82807%	402	53.457447%	43.7432%
+1038	7	7	100.0%	2	28.571428%	28.571428%
+1489	6817	6189	90.787735%	1786	28.85765%	26.199207%
+2424	87838	18050	20.549192%	1252	6.936288%	1.4253513%
+307	13336675	0	0.0%	0	0.0%	0.0%
+3153	1996822	26334	1.3187956%	1352	5.134047%	0.06770759%
+3234	150834	224	0.14850762%	23	10.267858%	0.015248551%
+3315	9045	1004	11.100056%	464	46.21514%	5.129906%
+677	13016	10814	83.08236%	10069	93.11078%	77.358635%
+758	5244276	11434	0.21802819%	1880	16.44219%	0.03584861%
+802	8390207	49	5.8401417E-4%	10	20.408163%	1.19186574E-4%
+1039	11279	2928	25.959747%	679	23.18989%	6.020037%
+1291	1609	86	5.344935%	81	94.18604%	5.0341825%
+1453	279	247	88.530464%	71	28.74494%	25.448029%
+2344	11741940	24	2.0439553E-4%	13	54.166668%	1.10714245E-4%
+2506	1	0	0.0%	0	0.0%	0.0%
+308	15	13	86.666664%	8	61.53846%	53.333332%
+3154	193028	1	5.1805953E-4%	1	100.0%	5.1805953E-4%
+3235	723196	565	0.07812543%	231	40.884956%	0.031941548%
+560	451336900	0	0.0%	0	0.0%	0.0%
+678	4633	3764	81.243256%	1473	39.1339%	31.793653%
+110	2524	849	33.637085%	251	29.564194%	9.944532%
+1292	101	13	12.871287%	11	84.61539%	10.891089%
+1454	21139	8899	42.097546%	7230	81.24509%	34.202187%
+1616	17	15	88.23529%	12	80.0%	70.588234%
+2507	458141	4	8.7309367E-4%	4	100.0%	8.7309367E-4%
+2796	57	0	0.0%	0	0.0%	0.0%
+2840	46	14	30.434782%	12	85.71429%	26.086956%
+2877	348986	72105	20.661287%	14137	19.60613%	4.050879%
+3074	782726	22344	2.8546388%	22076	98.800575%	2.8203995%
+3155	146128	2	0.001368663%	1	50.0%	6.843315E-4%
+3317	2780685	25	8.9905906E-4%	2	8.0%	7.1924725E-5%
+480	49	41	83.67347%	37	90.243904%	75.5102%
+679	28689	10157	35.403812%	9518	93.70877%	33.17648%
+82	404	183	45.29703%	121	66.12022%	29.950495%
+111	21380	2397	11.211412%	1488	62.0776%	6.9597754%
+1293	7197	4	0.055578712%	1	25.0%	0.013894678%
+148	289	65	22.49135%	42	64.61539%	14.532872%
+1617	12	12	100.0%	10	83.333336%	83.333336%
+2760	5167	0	0.0%	0	0.0%	0.0%
+3075	469100	121747	25.953316%	16619	13.650439%	3.5427415%
+3200	1339794	18342	1.3690164%	2189	11.934359%	0.16338332%
+3237	48875	19127	39.134525%	4551	23.79359%	9.311509%
+3318	213	0	0.0%	0	0.0%	0.0%
+3570	7148	0	0.0%	0	0.0%	0.0%
+481	84	69	82.14286%	58	84.05797%	69.04762%
+805	280	67	23.928572%	45	67.16418%	16.071428%
+83	327	146	44.64832%	85	58.219177%	25.993883%
+1294	1467	420	28.629856%	263	62.61905%	17.927744%
+149	595	110	18.487394%	96	87.27273%	16.134455%
+1500	630822	584568	92.66766%	284030	48.588017%	45.02538%
+1537	151993	36825	24.22809%	22959	62.346233%	15.105301%
+1618	96	66	68.75%	49	74.242424%	51.041668%
+1870	82961	9792	11.803137%	5926	60.51879%	7.1431155%
+2347	1085751	220	0.020262472%	30	13.636364%	0.0027630643%
+2680	7839541	20943	0.26714575%	8403	40.12319%	0.1071874%
+2761	2877685	4051	0.14077288%	633	15.6257715%	0.021996848%
+2842	1640624	26618	1.6224315%	3574	13.427004%	0.21784393%
+3201	176931132	4	2.2607667E-6%	2	50.0%	1.1303833E-6%
+3238	723196	81	0.011200283%	16	19.753086%	0.0022124017%
+3571	115	0	0.0%	0	0.0%	0.0%
+806	107872	18752	17.383566%	5469	29.164888%	5.0698977%
+1295	75	57	76.0%	37	64.91228%	49.333332%
+1420	331	209	63.141994%	162	77.51196%	48.942596%
+1457	7823	2170	27.73872%	698	32.165897%	8.922408%
+1501	19475	17652	90.63928%	2848	16.13415%	14.623877%
+1538	11411037	367038	3.2165174%	84504	23.02323%	0.74054617%
+1619	12	12	100.0%	10	83.333336%	83.333336%
+1952	1339794	9	6.7174505E-4%	4	44.444443%	2.9855335E-4%
+2186	2780685	10423	0.3748357%	7583	72.75256%	0.27270257%
+2348	152146	9	0.005915371%	5	55.555557%	0.003286317%
+2799	10154	8937	88.01457%	2559	28.63377%	25.20189%
+2843	650174	13238	2.0360703%	1357	10.250793%	0.20871335%
+3077	150834	0	0.0%	0	0.0%	0.0%
+3121	176931132	190	1.0738641E-4%	25	13.157895%	1.4129791E-5%
+3158	191	0	0.0%	0	0.0%	0.0%
+3572	1	0	0.0%	0	0.0%	0.0%
+807	20	12	60.0%	10	83.333336%	50.0%
+114	10020700	0	0.0%	0	0.0%	0.0%
+1296	146565	121251	82.728485%	23414	19.310356%	15.975164%
+1421	148	120	81.08108%	96	80.0%	64.86487%
+1502	209104	134139	64.14942%	10657	7.944744%	5.096507%
+2150	11411037	1	8.763445E-6%	1	100.0%	8.763445E-6%
+2312	36304	3	0.008263553%	3	100.0%	0.008263553%
+2763	59152471	3207	0.0054215826%	35	1.0913626%	5.9169124E-5%
+2844	1142333	16539	1.4478265%	3602	21.778826%	0.31531963%
+2925	11	0	0.0%	0	0.0%	0.0%
+3122	3694895	0	0.0%	0	0.0%	0.0%
+3203	7823	6	0.07669692%	4	66.666664%	0.05113128%
+3492	71	13	18.309858%	9	69.23077%	12.676056%
+3573	193028	0	0.0%	0	0.0%	0.0%
+646	38	14	36.842106%	14	100.0%	36.842106%
+1297	339	280	82.59587%	130	46.42857%	38.348083%
+1341	59495	47751	80.26053%	3215	6.7328434%	5.4038153%
+1378	451336900	0	0.0%	0	0.0%	0.0%
+1503	24474	22566	92.20397%	10907	48.33378%	44.565662%
+2151	5167	11	0.21288949%	2	18.181818%	0.03870718%
+2232	709642	412078	58.068436%	69328	16.824%	9.769433%
+2313	24353	3	0.01231881%	3	100.0%	0.01231881%
+2764	1200	460	38.333332%	338	73.478264%	28.166666%
+3079	889	656	73.79078%	587	89.481705%	66.02924%
+3204	150834	0	0.0%	0	0.0%	0.0%
+3493	1998220	7385	0.36957893%	3711	50.250507%	0.18571529%
+3574	146128	0	0.0%	0	0.0%	0.0%
+610	200	28	14.0%	26	92.85714%	13.0%
+809	176931132	507	2.8655215E-4%	35	6.903353%	1.9781708E-5%
+116	1618804	74936	4.6290965%	2178	2.9064803%	0.13454378%
+1342	38	21	55.263157%	21	100.0%	55.263157%
+1504	4532569	4207499	92.828125%	468131	11.126111%	10.32816%
+1874	59152471	1874	0.003168084%	246	13.127001%	4.158744E-4%
+2233	526732	510031	96.829315%	46966	9.20846%	8.916489%
+2314	1035707	3	2.896572E-4%	3	100.0%	2.896572E-4%
+2684	92378392	39	4.2217664E-5%	13	33.333332%	1.4072555E-5%
+2846	92378392	322	3.4856636E-4%	23	7.142857%	2.4897598E-5%
+3043	231	2	0.86580086%	2	100.0%	0.86580086%
+3494	10666746	18369	0.1722081%	1656	9.015188%	0.015524885%
+3575	255796	14	0.0054731113%	2	14.285714%	7.8187307E-4%
+1505	28689	10634	37.06647%	9999	94.02859%	34.85308%
+2234	3205828	2	6.238638E-5%	1	50.0%	3.119319E-5%
+2847	2	2	100.0%	1	50.0%	50.0%
+2928	176931132	9	5.0867247E-6%	9	100.0%	5.0867247E-6%
+612	59152471	24	4.0573115E-5%	11	45.833332%	1.859601E-5%
+89	10	9	90.0%	9	100.0%	90.0%
+1344	139494	55734	39.954407%	10456	18.760542%	7.4956627%
+1506	523311	336498	64.30173%	242506	72.06759%	46.340702%
+1795	1618804	71976	4.4462457%	1829	2.5411248%	0.11298465%
+2811	14	3	21.428572%	3	100.0%	21.428572%
+2848	86306	22	0.025490696%	11	50.0%	0.012745348%
+2929	8	0	0.0%	0	0.0%	0.0%
+3045	1085751	30749	2.832049%	8748	28.449705%	0.8057096%
+3207	34	9	26.470589%	6	66.666664%	17.647058%
+3540	3835	3822	99.66102%	3028	79.22554%	78.95698%
+613	176931132	541151	0.30585402%	21130	3.9046402%	0.011942499%
+1507	94609	87223	92.19313%	19020	21.806175%	20.103796%
+2650	176931132	21	1.1869025E-5%	1	4.7619047%	5.6519167E-7%
+2687	11741940	9893	0.08425354%	6834	69.07915%	0.058201626%
+2812	7299574	4	5.4797718E-5%	4	100.0%	5.4797718E-5%
+2849	176931132	0	0.0%	0	0.0%	0.0%
+3046	152146	6752	4.4378424%	1030	15.25474%	0.67698133%
+3127	86306	755	0.87479436%	370	49.006622%	0.42870715%
+3208	29	2	6.8965516%	2	100.0%	6.8965516%
+3497	1230512	300667	24.434301%	23450	7.799326%	1.9057108%
+3541	260640	39509	15.158456%	1026	2.5968766%	0.39364642%
+3578	86306	24	0.027808031%	13	54.166668%	0.015062684%
+533	150834	38700	25.657345%	38426	99.29199%	25.475689%
+1508	2824750	2587254	91.59232%	324721	12.550797%	11.495566%
+2237	10020700	0	0.0%	0	0.0%	0.0%
+2570	154796	0	0.0%	0	0.0%	0.0%
+2651	7806	168	2.1521907%	67	39.88095%	0.8583141%
+3010	8	8	100.0%	1	12.5%	12.5%
+3047	7299574	15	2.0549144E-4%	3	20.0%	4.109829E-5%
+3380	5123	1446	28.225649%	389	26.901798%	7.593207%
+3498	11893	8845	74.371475%	5627	63.617863%	47.313545%
+534	29204	2305	7.8927546%	1247	54.099785%	4.269963%
+985	451336900	1	2.2156398E-7%	1	100.0%	2.2156398E-7%
+1509	284925	258800	90.83092%	22967	8.87442%	8.060718%
+1761	23	3	13.043478%	1	33.333332%	4.347826%
+1923	73401231	1821378	2.4813998%	112796	6.1928935%	0.15367045%
+2238	2964503	791758	26.70795%	64223	8.1114435%	2.1664002%
+2319	333	245	73.57357%	89	36.32653%	26.726727%
+2490	22	22	100.0%	15	68.181816%	68.181816%
+2733	26293	8	0.03042635%	7	87.5%	0.026623055%
+3129	73	73	100.0%	25	34.246574%	34.246574%
+3499	11743	8779	74.75943%	5482	62.44447%	46.683132%
+535	29917	15204	50.820602%	5819	38.272823%	19.45048%
+986	3694895	487	0.013180347%	36	7.392197%	9.7431726E-4%
+1230	5244276	133	0.0025360985%	16	12.030075%	3.0509455E-4%
+1348	255796	87314	34.13423%	5327	6.100969%	2.0825188%
+1762	4	4	100.0%	1	25.0%	25.0%
+2239	2203804	740225	33.588512%	54890	7.415313%	2.4906933%
+2491	82	79	96.34146%	51	64.55696%	62.19512%
+2572	340	339	99.70588%	168	49.55752%	49.411766%
+2653	1809587	25381	1.4025853%	6074	23.931288%	0.3356567%
+3012	223	0	0.0%	0	0.0%	0.0%
+3049	1339794	18297	1.3656577%	2182	11.925452%	0.16286086%
+3463	688	683	99.273254%	446	65.30015%	64.825584%
+3544	525560	523074	99.52698%	200414	38.314655%	38.13342%
+374	23808	16742	70.3209%	1688	10.082427%	7.0900536%
+536	4723	2104	44.54796%	851	40.44677%	18.01821%
+57	451336900	4	8.862559E-7%	2	50.0%	4.4312796E-7%
+1150	134798	115259	85.504974%	15406	13.366418%	11.428953%
+1231	139549	38567	27.636887%	4489	11.639484%	3.2167912%
+1349	151	129	85.430466%	89	68.99225%	58.9404%
+21	5046	2186	43.32144%	818	37.419945%	16.21086%
+2654	2243247	58971	2.6288233%	13593	23.050312%	0.605952%
+3013	723196	28	0.0038717028%	1	3.5714285%	1.382751E-4%
+3464	11224	1442	12.847469%	456	31.622746%	4.0627227%
+375	1977	1529	77.3394%	352	23.021584%	17.804754%
+537	388409	1	2.5746058E-4%	1	100.0%	2.5746058E-4%
+58	5244276	143	0.0027267826%	18	12.587413%	3.4323137E-4%
+1232	451336900	191	4.231872E-5%	31	16.230366%	6.8684835E-6%
+1313	5252	953	18.145468%	780	81.8468%	14.851485%
+22	1648	786	47.694176%	286	36.38677%	17.354368%
+2736	1249796	60612	4.8497515%	9956	16.42579%	0.79661%
+3384	14	12	85.71429%	1	8.333333%	7.142857%
+376	6119	4201	68.65501%	1078	25.660557%	17.617258%
+59	86306	44583	51.656895%	13362	29.971066%	15.482121%
+1071	7148	1514	21.18075%	1414	93.39498%	19.781757%
+1233	13336675	0	0.0%	0	0.0%	0.0%
+1314	1801	1540	85.50805%	541	35.12987%	30.038868%
+1684	45426	10	0.022013824%	4	40.0%	0.00880553%
+23	2543	367	14.431773%	105	28.610353%	4.1289816%
+2494	1339794	247	0.01843567%	144	58.299595%	0.010747921%
+2656	1424440	90178	6.3307686%	16899	18.739603%	1.186361%
+2818	723196	29	0.004009978%	22	75.86207%	0.0030420523%
+377	7529	5578	74.08686%	1590	28.50484%	21.118343%
+458	79	50	63.291138%	27	54.0%	34.177216%
+539	21045	11315	53.76574%	930	8.219178%	4.4191017%
+1315	61	46	75.409836%	21	45.652172%	34.42623%
+2044	38472258	2608223	6.779491%	320672	12.294654%	0.8335149%
+2576	6306057	1	1.585777E-5%	1	100.0%	1.585777E-5%
+260	6	6	100.0%	1	16.666666%	16.666666%
+2657	23808	0	0.0%	0	0.0%	0.0%
+2701	197144	86686	43.970905%	15328	17.682209%	7.7750273%
+2990	21489	0	0.0%	0	0.0%	0.0%
+3511	6306057	140	0.0022200877%	35	25.0%	5.550219E-4%
+1073	5979	798	13.346713%	356	44.61153%	5.954173%
+1235	1249796	30	0.0024003917%	5	16.666666%	4.000653E-4%
+1316	1998220	7	3.5031178E-4%	1	14.285714%	5.004454E-5%
+1730	3539974	3288066	92.8839%	427713	13.008041%	12.0823765%
+2496	9448292	510	0.005397801%	29	5.6862745%	3.0693377E-4%
+261	1543133	206682	13.393661%	51955	25.137651%	3.3668518%
+2702	59152471	36351	0.061453052%	3665	10.082253%	0.0061958525%
+298	45426	29702	65.38546%	6535	22.001884%	14.386034%
+2991	56471161	11	1.947897E-5%	11	100.0%	1.947897E-5%
+3387	6306057	0	0.0%	0	0.0%	0.0%
+423	122	95	77.86885%	60	63.157894%	49.18033%
+1074	37	31	83.78378%	4	12.903226%	10.810811%
+1768	56471161	154	2.7270557E-4%	25	16.233767%	4.4270386E-5%
+181	6306057	911	0.014446428%	807	88.58398%	0.012797221%
+1849	1318932	152	0.011524476%	42	27.631578%	0.0031843947%
+2208	151683	52954	34.910965%	4294	8.108925%	2.830904%
+26	3205828	15896	0.49584693%	955	6.0078006%	0.029789496%
+2659	56471161	171	3.0280944E-4%	21	12.280702%	3.7187125E-5%
+2703	980875	27253	2.7784376%	2061	7.56247%	0.21011852%
+3351	176931132	0	0.0%	0	0.0%	0.0%
+3469	142	109	76.76057%	83	76.14679%	58.450703%
+3513	5252	46	0.8758568%	22	47.826088%	0.41888803%
+505	65	28	43.076923%	7	25.0%	10.769231%
+1570	10727	9913	92.411674%	3969	40.038334%	37.00009%
+1732	6306057	1	1.585777E-5%	1	100.0%	1.585777E-5%
+182	1424440	34107	2.3944147%	5638	16.53033%	0.39580467%
+2209	10363	810	7.8162694%	429	52.962963%	4.139728%
+2498	592	4	0.6756757%	4	100.0%	0.6756757%
+263	8	7	87.5%	7	100.0%	87.5%
+2704	354	352	99.43503%	146	41.477272%	41.24294%
+3190	86427	6115	7.075335%	945	15.453802%	1.0934083%
+3271	255796	277	0.10828942%	34	12.274368%	0.013291842%
+3352	945	497	52.592594%	323	64.98994%	34.179893%
+3514	18424	16754	90.93574%	11125	66.402054%	60.383194%
+1490	2032567	1826000	89.837135%	437368	23.952246%	21.518011%
+2499	5879	1300	22.112604%	321	24.692308%	5.460112%
+2543	26268912	25702	0.09784189%	3410	13.26745%	0.012981124%
+2624	778333	0	0.0%	0	0.0%	0.0%
+264	52	51	98.07692%	18	35.294117%	34.615383%
+2705	176931132	0	0.0%	0	0.0%	0.0%
+2994	517226	30657	5.927196%	1868	6.093225%	0.36115742%
+877	176931132	170	9.608258E-5%	22	12.941176%	1.2434216E-5%
+958	9902	6152	62.128864%	1085	17.636541%	10.957382%
+1040	11988	2928	24.424425%	679	23.18989%	5.663997%
+1491	388760	359963	92.592606%	24859	6.9059877%	6.3944335%
+1734	43	38	88.37209%	38	100.0%	88.37209%
+2625	3718848	12758	0.34306324%	1015	7.9557924%	0.027293399%
+3354	3205828	131983	4.1169705%	18235	13.816174%	0.5688078%
+3435	21819	1039	4.7619047%	178	17.131857%	0.81580275%
+346	333	0	0.0%	0	0.0%	0.0%
+878	451336900	0	0.0%	0	0.0%	0.0%
+1041	58055425	20	3.444984E-5%	15	75.0%	2.5837378E-5%
+1492	13283	12142	91.41007%	5246	43.205402%	39.49409%
+1573	200491	71034	35.43002%	38236	53.827744%	19.07118%
+2626	1380361	970	0.07027147%	32	3.298969%	0.0023182342%
+2707	1603304	71614	4.4666514%	4544	6.345128%	0.28341475%
+2996	10020700	41	4.0915306E-4%	21	51.219513%	2.0956619E-4%
+3193	5252	23	0.4379284%	3	13.043478%	0.057121098%
+3274	1339794	912	0.068070166%	160	17.54386%	0.011942134%
+3517	4817714	41631	0.8641235%	29531	70.93512%	0.6129671%
+509	1915406	0	0.0%	0	0.0%	0.0%
+680	630822	504775	80.01861%	246188	48.771828%	39.02654%
+842	451336900	0	0.0%	0	0.0%	0.0%
+1042	2780685	10750	0.3865954%	7667	71.32093%	0.27572343%
+1493	3465559	1463529	42.230675%	213934	14.617681%	6.1731453%
+2627	143644	119	0.0828437%	39	32.77311%	0.027150456%
+311	6714265	0	0.0%	0	0.0%	0.0%
+3275	217591	9175	4.2166266%	1171	12.762942%	0.5381656%
+3518	185030	51048	27.589039%	7405	14.505955%	4.0020537%
+681	6817	5483	80.431274%	1578	28.779865%	23.148012%
+1205	262823	1	3.804842E-4%	1	100.0%	3.804842E-4%
+1494	10606	9376	88.402794%	3880	41.38225%	36.583065%
+150	2278	1802	79.10448%	1023	56.770256%	44.907814%
+231	24	14	58.333332%	10	71.42857%	41.666668%
+2510	154193232	68181	0.044217896%	2211	3.2428389%	0.0014339151%
+2547	12	12	100.0%	12	100.0%	100.0%
+2880	38218	1	0.002616568%	1	100.0%	0.002616568%
+3276	19	0	0.0%	0	0.0%	0.0%
+3438	978833	46210	4.7209277%	1269	2.7461588%	0.12964419%
+3519	84	0	0.0%	0	0.0%	0.0%
+682	4404	3631	82.44778%	3161	87.05591%	71.77566%
+1206	1543133	4679	0.3032143%	1235	26.39453%	0.08003198%
+1495	13016	11285	86.70098%	10534	93.345146%	80.93116%
+151	243012	202376	83.27819%	81418	40.231056%	33.503696%
+1620	96	64	66.666664%	50	78.125%	52.083332%
+1657	92378392	49543514	53.63106%	1831327	3.6964014%	1.9824193%
+232	1549	837	54.034863%	621	74.19355%	40.09038%
+2511	7313	6354	86.88637%	3383	53.242054%	46.260086%
+2881	285953	76604	26.789019%	7199	9.397681%	2.5175467%
+2962	119	0	0.0%	0	0.0%	0.0%
+3277	2195920	112854	5.1392584%	5910	5.2368546%	0.26913548%
+3321	8827	8753	99.16167%	7334	83.788414%	83.08598%
+3358	2162	1	0.04625347%	1	100.0%	0.04625347%
+683	388760	311428	80.10803%	21188	6.8034987%	5.450149%
+845	294926	175721	59.581387%	1542	0.8775274%	0.522843%
+1496	2060	1277	61.99029%	960	75.17619%	46.60194%
+152	124879	101615	81.370766%	14323	14.09536%	11.469502%
+233	112	53	47.32143%	48	90.56604%	42.857143%
+2512	39	39	100.0%	3	7.6923075%	7.6923075%
+2882	1	0	0.0%	0	0.0%	0.0%
+2963	1339794	370	0.027616186%	78	21.081081%	0.0058217905%
+3278	80699985	252	3.1226772E-4%	18	7.142857%	2.2304837E-5%
+3322	320338	30833	9.625146%	12425	40.297733%	3.8787155%
+684	2032567	1610761	79.24762%	383365	23.800241%	18.861124%
+1046	618	390	63.106796%	48	12.307693%	7.76699%
+1497	7075	6584	93.060074%	2454	37.272175%	34.685513%
+153	356701	290570	81.46038%	70709	24.334583%	19.823046%
+1703	266	2	0.7518797%	1	50.0%	0.37593985%
+234	1345	780	57.992565%	461	59.102566%	34.275093%
+3080	150834	0	0.0%	0	0.0%	0.0%
+3279	5979	0	0.0%	0	0.0%	0.0%
+3404	6964586	0	0.0%	0	0.0%	0.0%
+685	11836	9884	83.50794%	9084	91.90611%	76.7489%
+1461	38	19	50.0%	19	100.0%	50.0%
+1498	21387	18744	87.64203%	12944	69.05676%	60.522747%
+154	583043	235530	40.39668%	134996	57.31584%	23.153696%
+235	2510	1513	60.278885%	865	57.171185%	34.46215%
+2514	26268912	25689	0.0977924%	3408	13.266378%	0.012973511%
+2884	213	0	0.0%	0	0.0%	0.0%
+2965	170	0	0.0%	0	0.0%	0.0%
+3243	16	16	100.0%	10	62.5%	62.5%
+3324	451690	6255	1.3847994%	2591	41.422863%	0.5736235%
+686	504776	393714	77.997765%	35949	9.130739%	7.121773%
+730	1915406	0	0.0%	0	0.0%	0.0%
+767	1	0	0.0%	0	0.0%	0.0%
+1048	45608	35614	78.08718%	11269	31.642052%	24.708384%
+1499	2442384	2266222	92.7873%	471644	20.811907%	19.310804%
+155	3539974	2909311	82.18453%	373799	12.848369%	10.559371%
+236	6140	768	12.508143%	496	64.583336%	8.078176%
+2885	2560619	43543	1.7004873%	4190	9.622672%	0.1636323%
+2966	350	2	0.5714286%	2	100.0%	0.5714286%
+3163	1339794	178	0.013285625%	1	0.56179774%	7.463834E-5%
+687	328951	266542	81.02787%	123658	46.39344%	37.591618%
+849	6801	1766	25.96677%	663	37.54247%	9.748567%
+90	451336900	0	0.0%	0	0.0%	0.0%
+1463	26268912	0	0.0%	0	0.0%	0.0%
+156	328733	273502	83.19883%	95686	34.985485%	29.107513%
+1706	3	0	0.0%	0	0.0%	0.0%
+237	510	458	89.803925%	356	77.729256%	69.803925%
+2886	34	2	5.882353%	1	50.0%	2.9411764%
+3326	21380	0	0.0%	0	0.0%	0.0%
+688	94609	74451	78.69336%	16095	21.618246%	17.012123%
+1383	568335	43891	7.722734%	3671	8.363901%	0.6459219%
+1464	59495	34320	57.68552%	2209	6.43648%	3.712917%
+157	2169	1714	79.02259%	1415	82.55543%	65.237434%
+2193	2169	1819	83.86353%	1519	83.50742%	70.03227%
+238	28663	9273	32.351814%	1873	20.198425%	6.534557%
+2850	251	32	12.749004%	21	65.625%	8.366534%
+2887	2780685	125	0.004495295%	38	30.4%	0.0013665698%
+2968	59152471	3325	0.005621067%	93	2.7969925%	1.5722081E-4%
+3408	176931132	4255	0.0024048905%	165	3.877791%	9.325662E-5%
+490	7197	4	0.055578712%	1	25.0%	0.013894678%
+689	16008	13045	81.4905%	12440	95.362206%	77.71114%
+92	6666	4730	70.95709%	1039	21.966173%	15.586558%
+1465	59495	34320	57.68552%	2209	6.43648%	3.712917%
+158	4434344	3186139	71.85142%	253703	7.96271%	5.7213197%
+1708	4434344	683040	15.403406%	118998	17.42182%	2.6835537%
+2194	2169	1819	83.86353%	1519	83.50742%	70.03227%
+2888	1424440	23793	1.6703407%	2423	10.183667%	0.17010194%
+3247	813	771	94.83395%	751	97.40597%	92.373924%
+3328	414	48	11.594203%	1	2.0833333%	0.2415459%
+491	73401231	411585	0.5607331%	56851	13.812699%	0.07745238%
+653	3	3	100.0%	2	66.666664%	66.666664%
+1	451336900	116869	0.02589396%	5404	4.6239805%	0.0011973318%
+1510	4633	4231	91.32312%	1594	37.67431%	34.405354%
+1547	27867066	10874306	39.02207%	1734583	15.951207%	6.224491%
+159	824	628	76.21359%	220	35.03185%	26.69903%
+2889	327922	89841	27.397064%	9982	11.11074%	3.0440166%
+2933	911245	10451	1.1468924%	2504	23.959429%	0.2747889%
+3086	723196	114	0.015763361%	32	28.070175%	0.0044248034%
+3167	458141	115	0.025101442%	55	47.826088%	0.012005038%
+3211	7806	4909	62.887524%	2990	60.908535%	38.303867%
+492	113115	4701	4.1559477%	1663	35.37545%	1.4701852%
+1386	1166	1	0.08576329%	1	100.0%	0.08576329%
+1511	1352590	1261270	93.248505%	418738	33.19971%	30.958235%
+1548	4926432	2605328	52.884686%	548364	21.04779%	11.131058%
+2196	768	616	80.208336%	525	85.22727%	68.359375%
+2772	16640	1435	8.623798%	698	48.641113%	4.1947117%
+2853	458141	30	0.0065482026%	15	50.0%	0.0032741013%
+3050	3694895	8	2.1651495E-4%	1	12.5%	2.7064369E-5%
+3087	1380361	7	5.071137E-4%	1	14.285714%	7.244482E-5%
+3582	92378392	1	1.0825042E-6%	1	100.0%	1.0825042E-6%
+736	5252	1323	25.190403%	816	61.678005%	15.536939%
+817	16987	6	0.035321128%	3	50.0%	0.017660564%
+1431	451336900	0	0.0%	0	0.0%	0.0%
+1512	11174	10276	91.963486%	5087	49.503696%	45.525326%
+2278	7806	25	0.32026646%	5	20.0%	0.06405329%
+2773	5978	719	12.027434%	50	6.954103%	0.83640015%
+3088	883625	101303	11.4644785%	5340	5.2713146%	0.60432875%
+3132	56471161	1676	0.0029678866%	72	4.295943%	1.2749872E-4%
+494	835	711	85.149704%	533	74.964836%	63.832336%
+575	6306057	729	0.011560314%	578	79.2867%	0.009165791%
+700	10606	8516	80.294174%	3506	41.169563%	33.05676%
+737	458141	2	4.3654683E-4%	2	100.0%	4.3654683E-4%
+1388	799	91	11.389236%	36	39.56044%	4.505632%
+1513	11866	10314	86.920616%	9555	92.64107%	80.524185%
+2242	1056	915	86.64773%	241	26.338799%	22.82197%
+2279	3694895	0	0.0%	0	0.0%	0.0%
+2936	1380361	40144	2.9082248%	2618	6.5215225%	0.18966053%
+3214	209	203	97.12919%	97	47.783253%	46.411484%
+4	89	73	82.02247%	63	86.30137%	70.786514%
+495	723	588	81.327805%	393	66.83673%	54.356846%
+701	5341	4342	81.29564%	1469	33.832336%	27.504213%
+1019	372	217	58.333332%	125	57.603687%	33.60215%
+1190	26268912	7241	0.027564902%	934	12.898771%	0.0035555337%
+1389	451336900	150	3.32346E-5%	45	30.0%	9.970379E-6%
+1433	13336675	1	7.498121E-6%	1	100.0%	7.498121E-6%
+1514	504776	468278	92.76946%	43169	9.218669%	8.552111%
+1884	52	39	75.0%	16	41.025642%	30.76923%
+207	7806	7678	98.36024%	2978	38.78614%	38.150143%
+2199	6964586	16	2.2973369E-4%	16	100.0%	2.2973369E-4%
+2243	61	24	39.34426%	18	75.0%	29.508196%
+2694	31	20	64.51613%	16	80.0%	51.612904%
+2775	451336900	9669	0.0021423022%	3450	35.68104%	7.6439575E-4%
+2856	24	24	100.0%	2	8.333333%	8.333333%
+2937	143644	5438	3.785748%	2766	50.86429%	1.9255939%
+3585	10770	5412	50.250698%	3626	66.99926%	33.667595%
+496	2780685	955	0.034344055%	492	51.518326%	0.017693482%
+5	333	276	82.88288%	104	37.68116%	31.231232%
+702	255738	201540	78.80722%	94090	46.68552%	36.79156%
+1515	2390	2043	85.48117%	1112	54.42976%	46.527195%
+2695	723196	306	0.042312182%	177	57.843136%	0.024474693%
+2857	10020700	412	0.0041114893%	14	3.3980582%	1.397108E-4%
+460	21380	2397	11.211412%	1488	62.0776%	6.9597754%
+6	66678	1785	2.6770449%	187	10.476191%	0.2804523%
+703	24474	20303	82.95743%	9655	47.55455%	39.450027%
+1516	374	201	53.743317%	164	81.59204%	43.850266%
+1886	8	6	75.0%	6	100.0%	75.0%
+1930	458141	0	0.0%	0	0.0%	0.0%
+2858	176931132	130	7.347491E-5%	16	12.307693%	9.043067E-6%
+461	778333	140431	18.042534%	83865	59.71972%	10.774951%
+542	147	92	62.585033%	69	75.0%	46.938774%
+7	61099	1132	1.8527309%	155	13.692579%	0.25368664%
+704	2769	2201	79.48718%	1507	68.46888%	54.42398%
+1274	401710	16	0.003982973%	16	100.0%	0.003982973%
+129	29	9	31.034483%	9	100.0%	31.034483%
+1517	198	178	89.89899%	90	50.5618%	45.454544%
+1887	723196	0	0.0%	0	0.0%	0.0%
+2408	6714265	1	1.4893663E-5%	1	100.0%	1.4893663E-5%
+2859	1339794	128	0.009553707%	6	4.6875%	4.4783004E-4%
+2903	69865	9178	13.136764%	6188	67.4221%	8.857081%
+3100	6306057	11	1.7443547E-4%	11	100.0%	1.7443547E-4%
+3137	133	12	9.022556%	11	91.666664%	8.270677%
+3551	318	101	31.761005%	86	85.14851%	27.044025%
+499	5568698	94667	1.6999844%	24288	25.656248%	0.43615222%
+543	76	69	90.789474%	56	81.159424%	73.68421%
+705	4874	3374	69.22446%	3049	90.367516%	62.556423%
+1275	38	13	34.210526%	9	69.23077%	23.68421%
+1518	3097638	2748031	88.71376%	336418	12.242147%	10.860469%
+1851	143644	0	0.0%	0	0.0%	0.0%
+1932	75	61	81.333336%	39	63.934425%	52.0%
+2580	22857	7594	33.223957%	1706	22.465103%	7.4637966%
+2698	1380361	40144	2.9082248%	2618	6.5215225%	0.18966053%
+2742	1380361	15	0.0010866723%	2	13.333333%	1.4488964E-4%
+2904	11411037	31269	0.2740242%	2798	8.948159%	0.02452012%
+3138	325	62	19.076923%	59	95.16129%	18.153847%
+3471	234041	33214	14.19153%	1717	5.169507%	0.73363215%
+3552	2647	2576	97.31772%	1105	42.89596%	41.745373%
+3589	328984	85723	26.05689%	11072	12.91602%	3.3655133%
+463	2199897	32	0.0014546135%	3	9.375%	1.3637001E-4%
+544	540	181	33.51852%	63	34.80663%	11.666667%
+625	248	39	15.725806%	27	69.23077%	10.887096%
+706	523311	296526	56.663437%	213615	72.039215%	40.819897%
+1519	1985316	1844547	92.90949%	435402	23.60482%	21.931118%
+1771	10363	7583	73.17379%	1456	19.200844%	14.049986%
+1852	1380361	0	0.0%	0	0.0%	0.0%
+2662	538	399	74.16357%	265	66.41604%	49.256504%
+2699	143644	5438	3.785748%	2766	50.86429%	1.9255939%
+2824	1	1	100.0%	1	100.0%	100.0%
+3139	458141	646	0.14100462%	354	54.798763%	0.07726879%
+3391	41471	39782	95.92728%	1585	3.984214%	3.8219478%
+464	2674945	85	0.0031776354%	69	81.17647%	0.0025794923%
+707	126623	44372	35.042606%	30245	68.16235%	23.885866%
+1277	255	132	51.764706%	92	69.69697%	36.07843%
+1402	157	43	27.388535%	37	86.04651%	23.56688%
+1772	151683	35356	23.309137%	2247	6.355357%	1.4813789%
+2744	176931132	0	0.0%	0	0.0%	0.0%
+2825	21	21	100.0%	20	95.2381%	95.2381%
+3059	154193232	58645	0.038033444%	2114	3.6047404%	0.001371007%
+3392	778333	0	0.0%	0	0.0%	0.0%
+3473	2310	2139	92.597404%	921	43.057503%	39.87013%
+708	72935	59272	81.266884%	27546	46.473885%	37.767876%
+1278	213	0	0.0%	0	0.0%	0.0%
+1403	1304	1169	89.64724%	328	28.05817%	25.153374%
+2169	151993	0	0.0%	0	0.0%	0.0%
+2826	591	559	94.58545%	447	79.96422%	75.63452%
+2907	8827	0	0.0%	0	0.0%	0.0%
+3104	59152471	7829	0.013235288%	219	2.7972922%	3.7022965E-4%
+3474	5784	5532	95.64315%	1307	23.626175%	22.596819%
+3555	7197	684	9.50396%	513	75.0%	7.12797%
+510	4884604	0	0.0%	0	0.0%	0.0%
+709	4532569	3710609	81.86547%	409731	11.04215%	9.039708%
+1323	255	132	51.764706%	92	69.69697%	36.07843%
+2584	88	3	3.409091%	1	33.333332%	1.1363636%
+2665	5978	681	11.391769%	53	7.7826724%	0.88658416%
+2746	80699985	238	2.949195E-4%	16	6.722689%	1.9826522E-5%
+2827	3	3	100.0%	2	66.666664%	66.666664%
+2908	5965	429	7.191953%	253	58.974358%	4.2414083%
+3024	21139	389	1.8402005%	229	58.868896%	1.0833057%
+3475	1739	1607	92.40943%	1218	75.7934%	70.04025%
+467	64	64	100.0%	2	3.125%	3.125%
+511	146128	77124	52.778385%	37395	48.48685%	25.590578%
+69	154796	128986	83.32644%	25971	20.134743%	16.777565%
+1324	666107	60018	9.010264%	59882	99.7734%	8.989847%
+1775	150834	3	0.0019889416%	3	100.0%	0.0019889416%
+1900	1623	1349	83.11768%	650	48.18384%	40.04929%
+2215	1339794	0	0.0%	0	0.0%	0.0%
+2666	1339794	107	0.0079863025%	9	8.411215%	6.7174505E-4%
+2828	2	2	100.0%	1	50.0%	50.0%
+2909	50965	9808	19.24458%	694	7.075856%	1.3617188%
+3106	1640624	26792	1.6330372%	3599	13.433114%	0.21936776%
+3476	999	997	99.7998%	822	82.44734%	82.28228%
+512	193028	66556	34.479973%	36867	55.392452%	19.099302%
+963	1142139	425041	37.214474%	158041	37.18253%	13.837282%
+1857	58055425	71168	0.12258631%	25196	35.403553%	0.043399908%
+2829	3	3	100.0%	3	100.0%	100.0%
+3107	1142333	16594	1.4526412%	3628	21.863323%	0.31759566%
+3396	86306	0	0.0%	0	0.0%	0.0%
+3477	218	212	97.2477%	1	0.4716981%	0.4587156%
+3521	887584	23395	2.6358068%	2527	10.801454%	0.28470546%
+3558	1543133	72977	4.729145%	30375	41.622704%	1.9683981%
+469	20934	449	2.1448362%	344	76.6147%	1.6432598%
+513	1763	4	0.22688599%	1	25.0%	0.056721497%
+883	385	44	11.428572%	6	13.636364%	1.5584415%
+1407	48	6	12.5%	6	100.0%	12.5%
+190	2543	332	13.055447%	95	28.614458%	3.7357452%
+2587	458141	7	0.0015279138%	7	100.0%	0.0015279138%
+2712	151993	0	0.0%	0	0.0%	0.0%
+3108	650174	13284	2.0431454%	1367	10.290575%	0.2102514%
+3360	458141	7896	1.7234869%	3522	44.604862%	0.76875895%
+3441	150834	385	0.2552475%	32	8.311688%	0.021215376%
+3478	1675	799	47.701492%	571	71.46433%	34.089554%
+35	31	19	61.29032%	8	42.105263%	25.806452%
+3522	1339794	591	0.04411126%	96	16.243654%	0.0071652806%
+514	16987	6	0.035321128%	3	50.0%	0.017660564%
+884	11	4	36.363636%	3	75.0%	27.272728%
+1408	36	33	91.666664%	26	78.78788%	72.22222%
+1697	1	0	0.0%	0	0.0%	0.0%
+2588	1315	73	5.5513306%	34	46.575344%	2.5855513%
+2632	4046	603	14.903608%	367	60.862354%	9.070687%
+272	176931132	0	0.0%	0	0.0%	0.0%
+3028	218	0	0.0%	0	0.0%	0.0%
+36	33	30	90.90909%	26	86.666664%	78.78788%
+515	3526034	165	0.0046794782%	19	11.515152%	5.3884904E-4%
+885	64156	62910	98.05786%	14122	22.44794%	22.01197%
+2101	510	0	0.0%	0	0.0%	0.0%
+273	176931132	37	2.0912092E-5%	8	21.621622%	4.5215334E-6%
+3281	1067	836	78.35052%	641	76.674644%	60.074978%
+3362	6306057	12788	0.20278916%	2122	16.593681%	0.033650186%
+3524	123319	0	0.0%	0	0.0%	0.0%
+886	8168	6289	76.99559%	3270	51.99555%	40.03428%
+967	498	304	61.044178%	130	42.763157%	26.104418%
+1248	176931132	553	3.1255098E-4%	196	35.44304%	1.1077756E-4%
+1699	5	0	0.0%	0	0.0%	0.0%
+193	6306057	2357	0.037376765%	1388	58.888416%	0.022010585%
+2021	1326211	213692	16.112972%	18874	8.832338%	1.4231521%
+2472	3205828	14023	0.4374221%	6078	43.34308%	0.18959221%
+2553	86306	10	0.01158668%	5	50.0%	0.00579334%
+3282	114831	23005	20.033789%	2707	11.767007%	2.3573773%
+3444	1166	0	0.0%	0	0.0%	0.0%
+38	45974	23963	52.12294%	14348	59.87564%	31.208944%
+968	19420	13817	71.1483%	8095	58.587246%	41.68383%
+1087	6964586	465005	6.676707%	463458	99.66731%	6.654495%
+1131	176931132	33	1.8651324E-5%	10	30.30303%	5.6519166E-6%
+1663	7839541	298	0.003801243%	123	41.27517%	0.0015689695%
+2392	46548154	1645497	3.5350425%	40323	2.4505057%	0.086626425%
+2473	59152471	47363	0.08006935%	1509	3.1860313%	0.0025510346%
+2554	1032365	43700	4.232999%	3870	8.855835%	0.3748674%
+2635	799	3	0.37546933%	1	33.333332%	0.12515645%
+2716	723196	0	0.0%	0	0.0%	0.0%
+3283	48037	7920	16.487291%	1325	16.729797%	2.7582905%
+3364	458141	16	0.0034923747%	10	62.5%	0.0021827342%
+3445	621	2	0.32206118%	2	100.0%	0.32206118%
+356	422	421	99.76303%	376	89.311165%	89.099525%
+851	56471161	58	1.02707294E-4%	13	22.413794%	2.30206E-5%
+888	7839541	297	0.003788487%	136	45.791245%	0.0017347954%
+969	29	0	0.0%	0	0.0%	0.0%

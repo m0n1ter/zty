@@ -1,0 +1,107 @@
+{% extends 'templete.html' %}
+
+{% block title %}终端类型分析{% endblock %}
+
+{% block left %}
+<li><a href="/1/dashboard1/{{data_lastest2}}"><span class="icon">&#128202;</span> ADP数据汇总</a></li>
+<li class="section"><a href="/2/dashboard2/{{data_lastest2}}"><span class="icon">&#128202;</span>终端类型分析</a></li>
+<li><a href="/3/dashboard3/{{data_lastest}}"><span class="icon">&#128202;</span> 终端数据汇总</a></li>
+<li><a href="/dashboard4/{{data_lastest}}/imei"><span class="icon">&#128202;</span>每日终端数据</a></li>
+<li><a href="/5/dashboard5/{{data_lastest}}"><span class="icon">&#128202;</span> 规则优化管理</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="btn-group">
+    <form action="/2/dashboard2/po" role="form" method="post" class="bs-example bs-example-form">
+        <div class="input-group" style="width: 300px; float: left">
+            <span class="input-group-addon">统计周期</span>
+            <select class="form-control" name="num">
+                {% for i in datalist %}
+                {% if i != data_now %}
+                <option value="{{i}}">{{i.substring(7)}}</option>
+                {% else %}
+                <option value="{{i}}" selected="selected">{{i.substring(7)}}</option>
+                {% endif %}
+                {% endfor %}
+            </select>
+        </div>
+        <div style="float: left; font-size: 15px; margin-top: 5px">
+            <p>(以15天为周期)</p>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-left: 30px">查询</button>
+    </form>
+</div>
+<div class="red" style="font-size: larger">
+    <p>2016年7月下半旬终端类型分析结果</p>
+</div>
+<br> <br> <br>
+<img src="../../views/images/u85.png" style="margin-left: 10%"/>
+<br> <br> <br>
+<div class="panel panel-danger" style="width: 370px; height: auto; float: left; margin-left: 5%">
+    <div class="panel-heading">
+        <h3 class="panel-title">终端类型统计</h3>
+    </div>
+    <div class="panel-body">
+        <table class="table table-hover" style=" text-align:center">
+            <thead>
+            <tr>
+                <td>设备类型</td>
+                <td>操作系统</td>
+                <td>数量&nbsp;&nbsp;</td>
+            </tr>
+            </thead>
+            {% for i in ans3 %}
+            <tr>
+                <td>{{i.type1}}</td>
+                <td>{{i.type2}}</td>
+                <td>{{i.num}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+<div style="width: 320px; height: auto; float: left; margin-left: 8%">
+    <div class="panel panel-danger" style="height: auto">
+        <div class="panel-heading">
+            <h3 class="panel-title">终端品牌统计</h3>
+        </div>
+        <div class="panel-body">
+            <table class="table table-hover" style=" text-align:center">
+                <thead>
+                <tr>
+                    <td>终端品牌</td>
+                    <td>数量&nbsp;&nbsp;</td>
+                </tr>
+                </thead>
+                {% for i in ans4 %}
+                <tr>
+                    <td>{{i.type}}</td>
+                    <td>{{i.num}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+    <div class="panel panel-danger" style="height: auto; margin-top: 3%">
+        <div class="panel-heading">
+            <h3 class="panel-title">终端型号统计</h3>
+        </div>
+        <div class="panel-body">
+            <table class="table table-hover" style=" text-align:center">
+                <thead>
+                <tr>
+                    <td>设备型号</td>
+                    <td>数量&nbsp;&nbsp;</td>
+                </tr>
+                </thead>
+                {% for i in ans5 %}
+                <tr>
+                    <td>{{i.type}}</td>
+                    <td>{{i.num}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,94 @@
+{% extends 'templete.html' %}
+
+{% block title %}ADP数据汇总{% endblock %}
+
+{% block left %}
+<li class="section"><a href="/1/dashboard1/{{data_lastest2}}"><span class="icon">&#128202;</span> ADP数据汇总</a></li>
+<li><a href="/2/dashboard2/{{data_lastest2}}"><span class="icon">&#128202;</span> 终端类型分析</a></li>
+<li><a href="/3/dashboard3/{{data_lastest}}"><span class="icon">&#128202;</span> 终端数据汇总</a></li>
+<li><a href="/dashboard4/{{data_lastest}}/imei"><span class="icon">&#128202;</span>每日终端数据</a></li>
+<li><a href="/5/dashboard5/{{data_lastest}}"><span class="icon">&#128202;</span> 规则优化管理</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="btn-group">
+    <form action="/1/dashboard1/po" role="form" method="post" class="bs-example bs-example-form">
+        <div class="input-group" style="width: 300px; float: left">
+            <span class="input-group-addon">统计周期</span>
+            <select class="form-control" name="num">
+                {% for i in datalist %}
+                {% if i != data_now %}
+                <option value="{{i}}">{{i.substring(7)}}</option>
+                {% else %}
+                <option value="{{i}}" selected="selected">{{i.substring(7)}}</option>
+                {% endif %}
+                {% endfor %}
+            </select>
+        </div>
+        <div style="float: left; font-size: 15px; margin-top: 5px">
+            <p>(以15天为周期)</p>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-left: 30px">查询</button>
+    </form>
+</div>
+<div class="red" style="font-size: larger">
+    <p>2016年7月下半旬ADP数据统计</p>
+</div>
+<br> <br> <br>
+<div style="float: left">
+    <div>
+        <strong style="font-size: 2.5em; margin-left: 20%">ADP-ID图谱</strong>
+    </div>
+    <br><br><br><br>
+    <img src="../../views/images/u28_3.png"/>
+</div>
+<table class="table table-hover table-condensed" style="width: 50%; float: left;">
+    <colgroup>
+        <col style="width: 80px">
+        <col style="width: 40px">
+        <col style="width: 80px">
+    </colgroup>
+    <tr>
+        <td colspan="2">AD总数</td>
+        <td>{{ans1[0]}}</td>
+    </tr>
+    <tr>
+        <td colspan="2">ADP总数</td>
+        <td>{{ans1[1]}}</td>
+    </tr>
+    <tr>
+        <td colspan="2">关联上ADP的AD总数</td>
+        <td>{{ans1[2]}}</td>
+    </tr>
+    <tr>
+        <td rowspan="3">终端设备ID</td>
+        <td>MDN</td>
+        <td>{{ans1[3]}}</td>
+    </tr>
+    <tr>
+        <td>IMEI</td>
+        <td>{{ans1[4]}}</td>
+    </tr>
+    <tr>
+        <td>IMSI</td>
+        <td>{{ans1[5]}}</td>
+    </tr>
+    <tr>
+        <td rowspan="{{ans2.length}}">关联上ADP的互联网ID</td>
+        <td>{{ans2[0].type}}</td>
+        <td>{{ans2[0].num}}</td>
+    </tr>
+    {% for i in ans2 %}
+    {% if i != ans2[0] %}
+        <tr>
+            <td>{{i.type}}</td>
+            <td>{{i.num}}</td>
+        </tr>
+    {% endif %}
+    {% endfor %}
+    <tr>
+        <td colspan="2">有效关系链总数</td>
+        <td>{{ans1[6]}}</td>
+    </tr>
+</table>
+{% endblock %}

@@ -1,0 +1,150 @@
+{% extends 'templete.html' %}
+
+{% block title %}每日终端数据{% endblock %}
+
+{% block left %}
+<li><a href="/1/dashboard1/{{data_lastest2}}"><span class="icon">&#128202;</span> ADP数据汇总</a></li>
+<li><a href="/2/dashboard2/{{data_lastest2}}"><span class="icon">&#128202;</span> 终端类型分析</a></li>
+<li><a href="/3/dashboard3/{{data_lastest}}"><span class="icon">&#128202;</span> 终端数据汇总</a></li>
+<li class="section"><a href="/dashboard4/{{data_lastest}}/imei"><span class="icon">&#128202;</span>每日终端数据</a></li>
+<li><a href="/5/dashboard5/{{data_lastest}}"><span class="icon">&#128202;</span> 规则优化管理</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="btn-group">
+    <form action="/4/dashboard4/po" role="form" method="post" class="bs-example bs-example-form">
+        <div class="input-group" style="width: 500px; float: left">
+            <span class="input-group-addon">日期</span>
+            <select class="form-control" name="num" style="float: left">
+                {% for i in data_1 %}
+                {% if i.data != data_this %}
+                <option value="{{i.data}}">{{i.data}}</option>
+                {% else %}
+                <option value="{{i.data}}" selected="selected">{{i.data}}</option>
+                {% endif %}
+                {% endfor %}
+            </select>
+            <span class="input-group-addon">数据类型</span>
+            <select class="form-control" name="type" style="float: left">
+                {% if data_type == "imei" %}
+                <option value="imei" selected="selected">查看imei</option>
+                {% else %}
+                <option value="imei">查看imei</option>
+                {% endif %}
+
+                {% if data_type == "imsi" %}
+                <option value="imsi" selected="selected">查看imsi</option>
+                {% else %}
+                <option value="imsi">查看imsi</option>
+                {% endif %}
+
+                {% if data_type == "mdn" %}
+                <option value="mdn" selected="selected">查看mdn</option>
+                {% else %}
+                <option value="mdn">查看mdn</option>
+                {% endif %}
+
+                {% if data_type == "all" %}
+                <option value="all" selected="selected">查看全部</option>
+                {% else %}
+                <option value="all">查看全部</option>
+                {% endif %}
+            </select>
+            <span class="input-group-btn">
+            <button type="submit" class="btn btn-default btn-primary">查询</button>
+            </span>
+        </div>
+    </form>
+</div>
+<div style="font-size: larger" class="red">
+        <p style="display: inline-block; margin-left: 32%">{{data_this}}日{{data_type}}覆盖率数据</p>
+        <p style="display: inline-block; margin-left: 20%">RuleID: <strong>
+            {% if data_type == "imei" %}
+            {{uniq.num_imei}}
+            {% elseif data_type == "imsi" %}
+            {{uniq.num_imsi}}
+            {% elseif data_type == "mdn" %}
+            {{uniq.num_mdn}}
+            {% else %}
+            {{uniq.num_imei+uniq.num_imsi+uniq.num_mdn}}
+            {% endif %}
+            </strong>UNIQUE: <strong>
+            {% if data_type == "imei" %}
+            {{uniq.imei_uniq}}
+            {% elseif data_type == "imsi" %}
+            {{uniq.imsi_uniq}}
+            {% elseif data_type == "mdn" %}
+            {{uniq.mdn_uniq}}
+            {% else %}
+            {{uniq.imei_uniq+uniq.imsi_uniq+uniq.mdn_uniq}}
+            {% endif %}
+        </strong></p>
+</div>
+<table class="table table-hover" style="text-align:center">
+    <tr>
+        <td>
+            <p style="display: inline-block">&nbsp;&nbsp;RuleID</p>
+            <form id="form0" action="/dashboard4/{{data_this}}/{{data_type}}" role="form" method="post" style="display: inline-block">
+                <input type="hidden" value="0" name="sortnum">
+                <span class="glyphicon glyphicon-sort" style="color: rgb(0, 0, 0); font-size:14px;" onclick="document.getElementById('form0').submit();"></span>
+            </form>
+        </td>
+        <td>
+            <p style="display: inline-block">&nbsp;&nbsp;TOTAL</p>
+            <form id="form1" action="/dashboard4/{{data_this}}/{{data_type}}" role="form" method="post" style="display: inline-block">
+                <input type="hidden" value="1" name="sortnum">
+                <span class="glyphicon glyphicon-sort" style="color: rgb(0, 0, 0); font-size:14px;" onclick="document.getElementById('form1').submit();"></span>
+            </form>
+        </td>
+        <td>
+            <p style="display: inline-block">&nbsp;&nbsp;MATCH</p>
+            <form id="form2" action="/dashboard4/{{data_this}}/{{data_type}}" role="form" method="post" style="display: inline-block">
+                <input type="hidden" value="2" name="sortnum">
+                <span class="glyphicon glyphicon-sort" style="color: rgb(0, 0, 0); font-size:14px;" onclick="document.getElementById('form2').submit();"></span>
+            </form>
+        </td>
+        <td>
+            <p style="display: inline-block">&nbsp;&nbsp;UNIQUE</p>
+            <form id="form3" action="/dashboard4/{{data_this}}/{{data_type}}" role="form" method="post" style="display: inline-block">
+                <input type="hidden" value="3" name="sortnum">
+                <span class="glyphicon glyphicon-sort" style="color: rgb(0, 0, 0); font-size:14px;" onclick="document.getElementById('form3').submit();"></span>
+            </form>
+        </td>
+        <td>
+            <p style="display: inline-block">&nbsp;&nbsp;&nbsp;MATCH/TOTAL</p>
+            <form id="form4" action="/dashboard4/{{data_this}}/{{data_type}}" role="form" method="post" style="display: inline-block">
+                <input type="hidden" value="4" name="sortnum">
+                <span class="glyphicon glyphicon-sort" style="color: rgb(0, 0, 0); font-size:14px;" onclick="document.getElementById('form4').submit();"></span>
+            </form>
+        </td>
+        <td>
+            <p style="display: inline-block">&nbsp;&nbsp;&nbsp;UNIQUE/MATCH</p>
+            <form id="form5" action="/dashboard4/{{data_this}}/{{data_type}}" role="form" method="post" style="display: inline-block">
+                <input type="hidden" value="5" name="sortnum">
+                <span class="glyphicon glyphicon-sort" style="color: rgb(0, 0, 0); font-size:14px;" onclick="document.getElementById('form5').submit();"></span>
+            </form>
+        </td>
+        <td>
+            URL
+        </td>
+    </tr>
+    {% for i in data %}
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;{{i.whiteid}}</td>
+        <td>&nbsp;&nbsp;&nbsp;{{i.total}}</td>
+        <td>&nbsp;&nbsp;&nbsp;{{i.match}}</td>
+        <td>&nbsp;&nbsp;&nbsp;{{i.uniq}}</td>
+        <td>&nbsp;&nbsp;&nbsp;{{i.mt}}%</td>
+        <td>&nbsp;&nbsp;&nbsp;{{i.um}}%</td>
+        <td>
+            <button type="button" class="btn btn-primary btn-xs"  style="max-width: none"
+                    data-container="body" data-toggle="popover" data-placement="left"
+                    data-content="{{i.url}} | {{i.type2}} | {{i.type3}}">
+                点击显示url
+            </button>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

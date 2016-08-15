@@ -1,0 +1,3 @@
+datestart=20160701
+hadoop fs -text private/terminal/statistic/${datestart}/uniq/* >> /data2/u_lx_tst2/mobile_analysis/log/use_white.log_${datestart} 2>xx
+hadoop fs -text private/terminal/use_w/${datestart}/part* >> /data2/u_lx_tst2/mobile_analysis/log/use_white.log_${datestart} 2>xx

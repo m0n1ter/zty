@@ -1,0 +1,134 @@
+{% extends 'templete.html' %}
+
+{% block title %}终端类型分析{% endblock %}
+
+{% block left %}
+<li><a href="/1/dashboard1/{{data_lastest2}}"><span class="icon">&#128202;</span> ADP数据汇总</a></li>
+<li><a href="/2/dashboard2/{{data_lastest2}}"><span class="icon">&#128202;</span>终端类型分析</a></li>
+<li><a href="/3/dashboard3/{{data_lastest}}"><span class="icon">&#128202;</span> 终端数据汇总</a></li>
+<li><a href="/dashboard4/{{data_lastest}}/imei"><span class="icon">&#128202;</span>每日终端数据</a></li>
+<li class="section"><a href="/5/dashboard5/{{data_lastest}}"><span class="icon">&#128202;</span> 规则优化管理</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="btn-group">
+    <form action="/5/dashboard5/po" role="form" method="post" class="bs-example bs-example-form">
+        <div class="input-group" style="width: 300px; float: left">
+            <span class="input-group-addon">统计周期</span>
+            <select class="form-control" name="data">
+                {% for i in data %}
+                {% if i.data != data_this %}
+                <option value="{{i.data}}">{{i.data}}</option>
+                {% else %}
+                <option value="{{i.data}}" selected="selected">{{i.data}}</option>
+                {% endif %}
+                {% endfor %}
+            </select>
+        </div>
+        <div style="float: left; font-size: 15px; margin-top: 5px">
+            <p>(以15天为周期)</p>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-left: 30px">查询</button>
+    </form>
+</div>
+<div class="red" style="font-size: larger">
+    <p>互联网ID识别规则</p>
+</div>
+<br> <br>
+<h1 style="font-size: 2em; margin-left: 30%">互联网ID识别规则趋势图</h1>
+<div id="basic" ></div>
+<br> <br> <br>
+<script>
+//    alert(location.href);
+    $.getJSON("../../data/resut",function(data){
+        for(var x in data){
+            data[x].date = data[x].data.substring(0, 4) + '/' + data[x].data.substring(4, 6) + '/' + data[x].data.substring(6, 8);
+//            alert(data[x].value + " " + data[x].date);
+        }
+        $(document).ready(function(){
+            var data2= [   { name:"first",
+                data: data
+/*                        [
+                            {value:3174, date:"2014/02/01"},
+                            {value:3258, date:"2014/02/02"},
+                            {value:3407, date:"2014/02/04"},
+                            {value:3869, date:"2014/02/05"},
+                            {value:3591, date:"2014/02/06"},
+                            {value:3538, date:"2014/02/07"},
+                            {value:3146, date:"2014/02/08"}
+                        ]
+
+*/            }
+            ]
+            options={
+                height: 250,
+                width: 800,
+            }
+            $("#basic").pista(data2, options);
+        });
+    })
+</script>
+<div class="red" style="font-size: larger">
+    <p>{{data_this}}新增规则</p>
+</div>
+<table class="table table-hover" style="text-align: center; table-layout:fixed">
+    <thead>
+    <tr>
+        <td><strong>type</strong></td>
+        <td><strong>source</strong></td>
+        <td><strong>key</strong></td>
+        <td><strong>host</strong></td>
+        <td><strong>url</strong></td>
+    </tr>
+    </thead>
+    <tbody>
+        {% for i in data_add %}
+        <tr>
+            <td>{{i.type}}</td>
+            <td>{{i.source}}</td>
+            <td>{{i.key}}</td>
+            <td>{{i.host}}</td>
+            <td>
+                <button type="button" class="btn btn-primary btn-xs"  style="max-width: none"
+                        data-container="body" data-toggle="popover" data-placement="left"
+                        data-content="{{i.url}}">
+                    点击显示url
+                </button>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+<div class="red" style="font-size: larger">
+    <p>{{data_this}}删除规则</p>
+</div>
+<table class="table table-hover" style="text-align: center; table-layout:fixed">
+    <thead><tr>
+        <td><strong>type</strong></td>
+        <td><strong>source</strong></td>
+        <td><strong>key</strong></td>
+        <td><strong>host</strong></td>
+        <td><strong>url</strong></td>
+    </tr></thead>
+    <tbody>
+    {% for i in data_dec %}
+    <tr>
+        <td>{{i.type}}</td>
+        <td>{{i.source}}</td>
+        <td>{{i.key}}</td>
+        <td>{{i.host}}</td>
+        <td>
+            <button type="button" class="btn btn-primary btn-xs"  style="max-width: none"
+                    data-container="body" data-toggle="popover" data-placement="left"
+                    data-content="{{i.url}}">
+                点击显示url
+            </button>
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+
+</table>
+
+{% endblock %}

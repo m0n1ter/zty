@@ -1,0 +1,2 @@
+/data2/u_lx_tsx2/mobile_analysis/log
+/data2/u_lx_tsx2/mobile_analysis/bin/history
